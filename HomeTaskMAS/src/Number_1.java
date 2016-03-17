@@ -33,16 +33,16 @@ public class Number_1 {
 	// 8. Среди чисел найти число-палиндром. Если таких чисел больше одного,
 	// найти второе.
 	public static String polindrom(String[] masF) {
+		String result = "";
 		int counter = 0;
 		for (String tmp : masF) {
 			StringBuilder sb = new StringBuilder(tmp);
-			boolean b = tmp.equals(sb.reverse().toString());
-			if (b == true) {
+			if (tmp.equals(sb.reverse().toString())) {
+				result = tmp;
 				counter++;
 			}
 			if (counter == 2) {
-				System.out.println(tmp);
-				break;
+				return result;
 			}
 			// for (int i = 0; i < tmp.length() / 2; i++) {
 			// if (tmp.charAt(i) != tmp.charAt(tmp.length() - i - 1)) {
@@ -50,14 +50,15 @@ public class Number_1 {
 			// }
 			// }
 		}
-		return "";
+		return result;
 	}
 
 	// 7. Найти число, состоящее только из различных цифр. Если таких чисел не-
 	// сколько, найти первое из них.
 	public static int maxDigits(int[] mas) {
+		int result = 0;
 		int maxCounter = Integer.MIN_VALUE;
-		int maxValue = 0;
+
 		for (int tmp : mas) {
 			String number = String.valueOf(tmp);
 			char[] chArr = number.toCharArray();
@@ -72,19 +73,17 @@ public class Number_1 {
 			}
 			if (counterRepit > maxCounter) {
 				maxCounter = counterRepit;
-				maxValue = tmp;
+				result = tmp;
 			}
 		}
-		System.out.println(maxCounter + " Max Counter: " + maxValue
-				+ " - Max Value");
-		return 0;
+		return result;
 	}
 
 	// 4. Найти число, в котором число различных цифр минимально. Если таких
 	// чисел несколько, найти первое из них.
 	public static int minDigits(int[] mas) {
 		int minCounter = Integer.MIN_VALUE;
-		int minValue = 0;
+		int result = 0;
 		for (int tmp : mas) {
 			String number = String.valueOf(tmp);
 			char[] chArr = number.toCharArray();
@@ -99,16 +98,16 @@ public class Number_1 {
 			}
 			if (counterRepit > minCounter) {
 				minCounter = counterRepit;
-				minValue = tmp;
+				result = tmp;
 			}
 		}
-		System.out.println(minValue + " - Минимальное число различных цифр");
-		return 0;
+		return result;
 	}
 
 	// 6. Найти число, цифры в котором идут в строгом порядке возрастания. Если
 	// таких чисел несколько, найти первое из них.
 	public static int increaseDegits(int[] mas) {
+		int result = 0;
 		for (int tmp : mas) {
 			boolean flag = true;
 			String number = String.valueOf(tmp);
@@ -119,16 +118,17 @@ public class Number_1 {
 				}
 			}
 			if (flag) {
-				System.out.println(tmp);
+				result = tmp;
 				break;
 			}
 		}
-		return 0;
+		return result;
 	}
 
 	// 5. Найти количество чисел, содержащих только четные цифры, а среди них
 	// количество чисел с равным числом четных и нечетных цифр.
 	public static int evenNumbers(int[] mas) {
+		int result = 0;
 		int counter = 0;
 		for (int a = 0; a < mas.length; a++) {// определяем сколько будет
 												// counter
@@ -154,22 +154,16 @@ public class Number_1 {
 																// цифрами
 				if (j % 2 != 0) {
 					counterNO++;
-					// System.out.print("j:"+j + " NO " +
-					// "counerNO: "+counterNO+" ");
 				}
 				if (j % 2 == 0) {
 					counterYES++;
-					// System.out.println("j:"+j + " YES " +
-					// "counterYES: "+counterYES+" ");
 				}
 			}
 			if (counterNO == counterYES) {
-				System.out
-						.println("Числа в котоых кол-во четных елементов = не четным :"
-								+ tmp);
+				result = tmp;
 			}
 		}
-		return 0;
+		return result;
 	}
 
 	// №3 Вывести на консоль те числа, длина которых меньше (больше) средней,а

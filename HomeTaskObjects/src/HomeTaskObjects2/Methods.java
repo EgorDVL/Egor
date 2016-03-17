@@ -17,6 +17,7 @@ public class Methods {
 		}
 	}
 
+	// список покупателей в алфавитном порядке;
 	public void alphabetCustomer() {
 		Comparator<Customer> comp = new Comparator<Customer>() {
 			@Override
@@ -30,6 +31,8 @@ public class Methods {
 		}
 	}
 
+	// список покупателей, у которых номер кредитной карточки находится в
+	// заданном интервале.
 	public void numberCards(int from, int to) {
 		for (Customer cus : customer) {
 			if (cus.getCreditCardNumber() >= from

@@ -15,6 +15,7 @@ public class Methods {
 		}
 	}
 
+	// список пациентов, имеющих данный диагноз;
 	public void diagnosis(String diagnosis) {
 		for (Patient pat : patient) {
 			if (pat.getDiagnosis().equals(diagnosis)) {
@@ -23,6 +24,8 @@ public class Methods {
 		}
 	}
 
+	// список пациентов, номер медицинской карты которых находится в заданном
+	// интервале.
 	public void numberMedicalCardsInterval(int from, int to) {
 		for (Patient pat : patient) {
 			if (pat.getNumberMecalCard() >= from
