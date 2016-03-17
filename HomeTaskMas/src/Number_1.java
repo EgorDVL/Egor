@@ -18,20 +18,17 @@ public class Number_1 {
 				"1331", "122" };
 		System.out.println();
 		System.out.println(polindrom(masF));
-		// System.out.println("Массив чисел " +
-		// Arrays.toString(minAVG(masF)));// 3
+		// System.out.println(Arrays.toString(minAVG(masF)));// 3
 
 		// System.out.println(longANDsmallDigits(masF));// 1
-		// System.out.println("Сортировка по возрастанию :"
 
 		// + Arrays.toString(maxlengthDigits(masF)));// 2
-		// System.out.println("Сортировка по убыванию :"
 
 		// + Arrays.toString(minlengthDigits(masF)));// 2
 	}
 
-	// 8. Среди чисел найти число-палиндром. Если таких чисел больше одного,
-	// найти второе.
+	// 8. РЎСЂРµРґРё С‡РёСЃРµР» РЅР°Р№С‚Рё С‡РёСЃР»Рѕ-РїР°Р»РёРЅРґСЂРѕРј. Р•СЃР»Рё С‚Р°РєРёС… С‡РёСЃРµР» Р±РѕР»СЊС€Рµ РѕРґРЅРѕРіРѕ,
+	// РЅР°Р№С‚Рё РІС‚РѕСЂРѕРµ.
 	public static String polindrom(String[] masF) {
 		String result = "";
 		int counter = 0;
@@ -46,15 +43,15 @@ public class Number_1 {
 			}
 			// for (int i = 0; i < tmp.length() / 2; i++) {
 			// if (tmp.charAt(i) != tmp.charAt(tmp.length() - i - 1)) {
-			// System.out.println("Не полиндром : " + tmp);
+			// System.out.println(tmp);
 			// }
 			// }
 		}
 		return result;
 	}
 
-	// 7. Найти число, состоящее только из различных цифр. Если таких чисел не-
-	// сколько, найти первое из них.
+	// 7. РќР°Р№С‚Рё С‡РёСЃР»Рѕ, СЃРѕСЃС‚РѕСЏС‰РµРµ С‚РѕР»СЊРєРѕ РёР· СЂР°Р·Р»РёС‡РЅС‹С… С†РёС„СЂ. Р•СЃР»Рё С‚Р°РєРёС… С‡РёСЃРµР» РЅРµ-
+	// СЃРєРѕР»СЊРєРѕ, РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РёР· РЅРёС….
 	public static int maxDigits(int[] mas) {
 		int result = 0;
 		int maxCounter = Integer.MIN_VALUE;
@@ -79,8 +76,8 @@ public class Number_1 {
 		return result;
 	}
 
-	// 4. Найти число, в котором число различных цифр минимально. Если таких
-	// чисел несколько, найти первое из них.
+	// 4. РќР°Р№С‚Рё С‡РёСЃР»Рѕ, РІ РєРѕС‚РѕСЂРѕРј С‡РёСЃР»Рѕ СЂР°Р·Р»РёС‡РЅС‹С… С†РёС„СЂ РјРёРЅРёРјР°Р»СЊРЅРѕ. Р•СЃР»Рё С‚Р°РєРёС…
+	// С‡РёСЃРµР» РЅРµСЃРєРѕР»СЊРєРѕ, РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РёР· РЅРёС….
 	public static int minDigits(int[] mas) {
 		int minCounter = Integer.MIN_VALUE;
 		int result = 0;
@@ -104,8 +101,8 @@ public class Number_1 {
 		return result;
 	}
 
-	// 6. Найти число, цифры в котором идут в строгом порядке возрастания. Если
-	// таких чисел несколько, найти первое из них.
+	// 6. РќР°Р№С‚Рё С‡РёСЃР»Рѕ, С†РёС„СЂС‹ РІ РєРѕС‚РѕСЂРѕРј РёРґСѓС‚ РІ СЃС‚СЂРѕРіРѕРј РїРѕСЂСЏРґРєРµ РІРѕР·СЂР°СЃС‚Р°РЅРёСЏ. Р•СЃР»Рё
+	// С‚Р°РєРёС… С‡РёСЃРµР» РЅРµСЃРєРѕР»СЊРєРѕ, РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РёР· РЅРёС….
 	public static int increaseDegits(int[] mas) {
 		int result = 0;
 		for (int tmp : mas) {
@@ -125,18 +122,17 @@ public class Number_1 {
 		return result;
 	}
 
-	// 5. Найти количество чисел, содержащих только четные цифры, а среди них
-	// количество чисел с равным числом четных и нечетных цифр.
+	// 5. РќР°Р№С‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР», СЃРѕРґРµСЂР¶Р°С‰РёС… С‚РѕР»СЊРєРѕ С‡РµС‚РЅС‹Рµ С†РёС„СЂС‹, Р° СЃСЂРµРґРё РЅРёС… вЂ”
+	// РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» СЃ СЂР°РІРЅС‹Рј С‡РёСЃР»РѕРј С‡РµС‚РЅС‹С… Рё РЅРµС‡РµС‚РЅС‹С… С†РёС„СЂ
 	public static int evenNumbers(int[] mas) {
 		int result = 0;
 		int counter = 0;
-		for (int a = 0; a < mas.length; a++) {// определяем сколько будет
-												// counter
+		for (int a = 0; a < mas.length; a++) {
 			if (mas[a] % 2 == 0) {
 				counter++;
 			}
 		}
-		int newArr[] = new int[counter];// записываем в новый массив
+		int newArr[] = new int[counter];
 		for (int e = 0, f = 0; e < mas.length; e++) {
 			if (mas[e] % 2 == 0) {
 				newArr[f++] = mas[e];
@@ -149,9 +145,7 @@ public class Number_1 {
 			int counterNO = 0;
 			int counterYES = 0;
 			for (int i = 0; i < number.length(); i++) {
-				int j = Character.digit(number.charAt(i), 10); // выводим числа
-																// отдельными
-																// цифрами
+				int j = Character.digit(number.charAt(i), 10);
 				if (j % 2 != 0) {
 					counterNO++;
 				}
@@ -166,8 +160,8 @@ public class Number_1 {
 		return result;
 	}
 
-	// №3 Вывести на консоль те числа, длина которых меньше (больше) средней,а
-	// также длину.
+	// 3 Р’С‹РІРµСЃС‚Рё РЅР° РєРѕРЅСЃРѕР»СЊ С‚Рµ С‡РёСЃР»Р°, РґР»РёРЅР° РєРѕС‚РѕСЂС‹С… РјРµРЅСЊС€Рµ (Р±РѕР»СЊС€Рµ) СЃСЂРµРґРЅРµР№,
+	// Р° С‚Р°РєР¶Рµ РґР»РёРЅСѓ.
 	public static String[] minAVG(String[] masF) {
 		int m = masF.length;
 		int s = 0;
@@ -176,15 +170,15 @@ public class Number_1 {
 		}
 		for (int j = 0; j < masF.length; j++) {
 			if (masF[j].length() <= s / m) {
-				System.out.println("Числа меньше AVG :");
+				System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ AVG :");
 				System.out.println(masF[j] + " ");
 			}
 		}
 		return masF;
 	}
 
-	// №2 Упорядочить и вывести числа в порядке возрастания (убывания) значений
-	// их длины.
+	// 2 РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ Рё РІС‹РІРµСЃС‚Рё С‡РёСЃР»Р° РІ РїРѕСЂСЏРґРєРµ РІРѕР·СЂР°СЃС‚Р°РЅРёСЏ (СѓР±С‹РІР°РЅРёСЏ) Р·РЅР°С‡РµРЅРёР№
+	// РёС… РґР»РёРЅС‹.
 	public static String[] maxlengthDigits(String[] masF) {
 		for (int i = masF.length - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
@@ -198,8 +192,8 @@ public class Number_1 {
 		return masF;
 	}
 
-	// №2 Упорядочить и вывести числа в порядке возрастания (убывания) значений
-	// их длины.
+	// 2 РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ Рё РІС‹РІРµСЃС‚Рё С‡РёСЃР»Р° РІ РїРѕСЂСЏРґРєРµ РІРѕР·СЂР°СЃС‚Р°РЅРёСЏ (СѓР±С‹РІР°РЅРёСЏ) Р·РЅР°С‡РµРЅРёР№
+	// РёС… РґР»РёРЅС‹.
 	public static String[] minlengthDigits(String[] masF) {
 		for (int k = masF.length - 1; k > 0; k--) {
 			for (int b = 0; b < k; b++) {
@@ -213,8 +207,8 @@ public class Number_1 {
 		return masF;
 	}
 
-	// №1 Найти самое короткое и самое длинное число. Вывести найденные числа и
-	// их длину
+	// 1.РќР°Р№С‚Рё СЃР°РјРѕРµ РєРѕСЂРѕС‚РєРѕРµ Рё СЃР°РјРѕРµ РґР»РёРЅРЅРѕРµ С‡РёСЃР»Рѕ. Р’С‹РІРµСЃС‚Рё РЅР°Р№РґРµРЅРЅС‹Рµ С‡РёСЃР»Р° Рё
+	// РёС… РґР»РёРЅСѓ.
 	public static String longANDsmallDigits(String[] masF) {
 		String longDigit = masF[0];
 		String smallDigit = masF[0];
@@ -226,10 +220,10 @@ public class Number_1 {
 				smallDigit = masF[i];
 			}
 		}
-		System.out.println("Длинна слова : " + longDigit.length());
-		System.out.println("Самое длинное cлово : " + longDigit);
-		System.out.println("Длина слова : " + smallDigit.length());
-		System.out.println("Самое короткое слово : " + smallDigit);
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ : " + longDigit.length());
+		System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ cпїЅпїЅпїЅпїЅ : " + longDigit);
+		System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ : " + smallDigit.length());
+		System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ : " + smallDigit);
 		return "";
 	}
 }
