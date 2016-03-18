@@ -1,4 +1,4 @@
-package HomeTaskObjects6;
+﻿package HomeTaskObjects6;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,7 +17,8 @@ public class Methods {
 			System.out.println(pho);
 		}
 	}
-
+//сведения об абонентах, у которых время внутригородских разговоров
+//превышает заданное
 	public void timeCity(int sec) {
 		for (Phone ph : phone) {
 			int pullseconds = ph.getTimeCity();
@@ -31,7 +32,7 @@ public class Methods {
 			}
 		}
 	}
-
+//сведения об абонентах, которые пользовались междугородной связью
 	public void timeIntercity() {
 		for (Phone ph : phone) {
 			int pullSeconds = ph.getTimeIntercity();
@@ -40,7 +41,7 @@ public class Methods {
 			}
 		}
 	}
-
+//сведения об абонентах в алфавитном порядке.
 	public List<Phone> phoneSort() {
 		Collections.sort(phone, new Comparator<Phone>() {
 			@Override
