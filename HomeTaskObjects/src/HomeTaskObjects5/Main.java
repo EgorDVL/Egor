@@ -12,9 +12,9 @@ public class Main {
 		methods.addHouse(new House(4, 2, 28, 6, 1, "Pobedu 1", "Hrushevka", 70));
 		methods.addHouse(new House(5, 59, 45, 12, 2, "Nauchnaia 33",
 				"Hrushevka", 70));
-		// methods.showAll();
-		// methods.allRoomCounter(1);
-		// methods.flats(2, 2, 10);
+		methods.showAll();
+		methods.allRoomCounter(1);
+		methods.flats(2, 2, 10);
 		methods.biggerSquare(30);
 	}
 

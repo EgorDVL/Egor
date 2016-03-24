@@ -4,28 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Number_1 {
-	public static void main(String[] args) {
-		// int mas[] = { 1001, 3332, 1111, 1234, 1223 };
-		// System.out.print(Arrays.toString(mas));
-		// System.out.println();
-		// System.out.println(maxDigits(mas)); // 7
-		// System.out.println(minDigits(mas)); // 4
-		// System.out.println(increaseDegits(mas)); // 6
-		// System.out.print(evenNumbers(mas)); // 5
-
-		String masF[] = { "132111", "232", "1212", "34323", "75768", "23",
-				"1331", "122" };
-		System.out.println();
-		System.out.println(polindrom(masF));
-		// System.out.println(Arrays.toString(minAVG(masF)));// 3
-
-		// System.out.println(longANDsmallDigits(masF));// 1
-
-		// + Arrays.toString(maxlengthDigits(masF)));// 2
-
-		// + Arrays.toString(minlengthDigits(masF)));// 2
-	}
+public class MethodsMas {
 
 	// 8. Среди чисел найти число-палиндром. Если таких чисел больше одного,
 	// найти второе.
@@ -52,7 +31,7 @@ public class Number_1 {
 
 	// 7. Найти число, состоящее только из различных цифр. Если таких чисел не-
 	// сколько, найти первое из них.
-	public static int maxDigits(int[] mas) {
+	public int maxDigits(int[] mas) {
 		int result = 0;
 		int maxCounter = Integer.MIN_VALUE;
 
@@ -78,7 +57,7 @@ public class Number_1 {
 
 	// 4. Найти число, в котором число различных цифр минимально. Если таких
 	// чисел несколько, найти первое из них.
-	public static int minDigits(int[] mas) {
+	public int minDigits(int[] mas) {
 		int minCounter = Integer.MIN_VALUE;
 		int result = 0;
 		for (int tmp : mas) {
@@ -103,7 +82,7 @@ public class Number_1 {
 
 	// 6. Найти число, цифры в котором идут в строгом порядке возрастания. Если
 	// таких чисел несколько, найти первое из них.
-	public static int increaseDegits(int[] mas) {
+	public int increaseDegits(int[] mas) {
 		int result = 0;
 		for (int tmp : mas) {
 			boolean flag = true;
@@ -124,7 +103,7 @@ public class Number_1 {
 
 	// 5. Найти количество чисел, содержащих только четные цифры, а среди них —
 	// количество чисел с равным числом четных и нечетных цифр
-	public static int evenNumbers(int[] mas) {
+	public int evenNumbers(int[] mas) {
 		int result = 0;
 		int counter = 0;
 		for (int a = 0; a < mas.length; a++) {
@@ -162,7 +141,8 @@ public class Number_1 {
 
 	// 3 Вывести на консоль те числа, длина которых меньше (больше) средней,
 	// а также длину.
-	public static String[] minAVG(String[] masF) {
+	public ArrayList<String> minAVG(String[] masF) {
+		ArrayList<String> arr = new ArrayList<String>();
 		int m = masF.length;
 		int s = 0;
 		for (int i = 0; i < masF.length; i++) {
@@ -170,16 +150,16 @@ public class Number_1 {
 		}
 		for (int j = 0; j < masF.length; j++) {
 			if (masF[j].length() <= s / m) {
-				System.out.println("����� ������ AVG :");
-				System.out.println(masF[j] + " ");
+				arr.add(masF[j]);
+				System.out.println(" AVG :");
 			}
 		}
-		return masF;
+		return arr;
 	}
 
 	// 2 Упорядочить и вывести числа в порядке возрастания (убывания) значений
 	// их длины.
-	public static String[] maxlengthDigits(String[] masF) {
+	public String[] maxLengthDigits(String[] masF) {
 		for (int i = masF.length - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				if (masF[j].length() > masF[j + 1].length()) {
@@ -194,7 +174,7 @@ public class Number_1 {
 
 	// 2 Упорядочить и вывести числа в порядке возрастания (убывания) значений
 	// их длины.
-	public static String[] minlengthDigits(String[] masF) {
+	public String[] minLengthDigits(String[] masF) {
 		for (int k = masF.length - 1; k > 0; k--) {
 			for (int b = 0; b < k; b++) {
 				if (masF[b].length() < masF[b + 1].length()) {
@@ -209,7 +189,7 @@ public class Number_1 {
 
 	// 1.Найти самое короткое и самое длинное число. Вывести найденные числа и
 	// их длину.
-	public static String longANDsmallDigits(String[] masF) {
+	public void longANDsmallDigits(String[] masF) {
 		String longDigit = masF[0];
 		String smallDigit = masF[0];
 		for (int i = 0; i < masF.length; i++) {
@@ -220,10 +200,9 @@ public class Number_1 {
 				smallDigit = masF[i];
 			}
 		}
-		System.out.println("������ ����� : " + longDigit.length());
-		System.out.println("����� ������� c���� : " + longDigit);
-		System.out.println("����� ����� : " + smallDigit.length());
-		System.out.println("����� �������� ����� : " + smallDigit);
-		return "";
+		System.out.println("longDigit : " + longDigit.length());
+		System.out.println(longDigit);
+		System.out.println("smallDigit " + smallDigit.length());
+		System.out.println(smallDigit);
 	}
 }

@@ -12,8 +12,8 @@ public class Main {
 				"Kiev,Svobody 2", 990002221, 3333, "Hemorrhoids"));
 		method.addPatient(new Patient(4, "Trol", "Trololo", "Lolovich",
 				"Kharkiv,Bakulina 12", 672135402, 4444, "ORZ"));
-		// method.showAll();
-		// method.diagnosis("ORZ");
+		method.showAll();
+		method.diagnosis("ORZ");
 		method.numberMedicalCardsInterval(1000, 2300);
 	}
 }

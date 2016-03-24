@@ -16,22 +16,26 @@ public class Methods {
 	}
 
 	// список пациентов, имеющих данный диагноз;
-	public void diagnosis(String diagnosis) {
+	public ArrayList<Patient> diagnosis(String diagnosis) {
+		ArrayList<Patient> p = new ArrayList<Patient>();
 		for (Patient pat : patient) {
 			if (pat.getDiagnosis().equals(diagnosis)) {
-				System.out.println(pat);
+				p.add(pat);
 			}
 		}
+		return p;
 	}
 
 	// список пациентов, номер медицинской карты которых находится в заданном
 	// интервале.
-	public void numberMedicalCardsInterval(int from, int to) {
+	public ArrayList<Patient> numberMedicalCardsInterval(int from, int to) {
+		ArrayList<Patient> p = new ArrayList<Patient>();
 		for (Patient pat : patient) {
 			if (pat.getNumberMecalCard() >= from
 					&& pat.getNumberMecalCard() <= to) {
-				System.out.println(pat);
+				p.add(pat);
 			}
 		}
+		return p;
 	}
 }

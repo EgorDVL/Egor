@@ -12,8 +12,8 @@ public class Main {
 				"Donetsk", 1224));
 		methods.addCustomer(new Customer(4, "Dasha", "Petrova", "Nicolaevna",
 				"Kharkiv , Lenina 23", 1442));
-		// methods.showALL();
-		// methods.alphabetCustomer();
+		methods.showALL();
+		methods.alphabetCustomer();
 		methods.numberCards(0, 1230);
 
 	}

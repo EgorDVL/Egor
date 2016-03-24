@@ -22,9 +22,9 @@ public class Main {
 				"Kharkiv,Asharova 18", 506063423, new ArrayList<Integer>(Arrays
 						.asList(75, 85, 100))));
 
-		// methods.showAll();
-		// methods.badMarks(61);
-		// methods.sumMarks(230);
+		methods.showAll();
+		methods.badMarks(61);
+		methods.sumMarks(230);
 		System.out.println(methods.goodAbiturientsMarks(2));
 	}
 }

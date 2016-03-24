@@ -19,27 +19,31 @@ public class Methods {
 	}
 
 	// список абитуриентов, имеющих неудовлетворительные оценки;
-	public void badMarks(int fatalmark) {
+	public ArrayList<Abiturient> badMarks(int fatalmark) {
+		ArrayList<Abiturient> ab = new ArrayList<Abiturient>();
 		for (Abiturient abi : abiturient) {
 			for (int ma : abi.getMarks()) {
 				if (ma < fatalmark) {
-					System.out.println(abi);
+					ab.add(abi);
 				}
 			}
 		}
+		return ab;
 	}
 
 	// список абитуриентов, у которых сумма баллов выше заданной;
-	public void sumMarks(int specialMark) {
+	public ArrayList<Abiturient> sumMarks(int specialMark) {
+		ArrayList<Abiturient> ab = new ArrayList<Abiturient>();
 		for (Abiturient abi : abiturient) {
 			int sum = 0;
 			for (int ma : abi.getMarks()) {
 				sum += ma;
 				if (sum > specialMark) {
-					System.out.println(abi);
+					ab.add(abi);
 				}
 			}
 		}
+		return ab;
 	}
 
 	// выбрать заданное число n абитуриентов, имеющих самую высокую сумму баллов

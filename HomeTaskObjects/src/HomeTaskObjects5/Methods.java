@@ -16,32 +16,38 @@ public class Methods {
 	}
 
 	// список квартир, имеющих заданное число комнат
-	public void allRoomCounter(int countRoom) {
+	public ArrayList<House> allRoomCounter(int countRoom) {
+		ArrayList<House> h = new ArrayList<House>();
 		for (House ho : house) {
 			if (ho.getRoomCounter() == countRoom) {
-				System.out.println(ho);
+				h.add(ho);
 			}
 		}
+		return h;
 	}
 
 	// список квартир, имеющих заданное число комнат и расположенных
 	// на этаже, который находится в заданном промежутке
-	public void flats(int countRoom, int from, int to) {
+	public ArrayList<House> flats(int countRoom, int from, int to) {
+		ArrayList<House> h = new ArrayList<House>();
 		for (House ho : house) {
 			if (ho.getRoomCounter() == countRoom) {
 				if (ho.getFloar() >= from && ho.getFloar() <= to) {
-					System.out.println(ho);
+					h.add(ho);
 				}
 			}
 		}
+		return h;
 	}
 
 	// список квартир, имеющих площадь, превосходящую заданную
-	public void biggerSquare(int square) {
+	public ArrayList<House> biggerSquare(int square) {
+		ArrayList<House> h = new ArrayList<House>();
 		for (House ho : house) {
 			if (ho.getSquare() > square) {
-				System.out.println(ho);
+				h.add(ho);
 			}
 		}
+		return h;
 	}
 }

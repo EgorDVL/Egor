@@ -19,13 +19,12 @@ public class Methods {
 
 	// список покупателей в алфавитном порядке;
 	public void alphabetCustomer() {
-		Comparator<Customer> comp = new Comparator<Customer>() {
+		Collections.sort(customer, new Comparator<Customer>() {
 			@Override
 			public int compare(Customer o1, Customer o2) {
 				return o1.getName().compareTo(o2.getName());
 			}
-		};
-		Collections.sort(customer, comp);
+		});
 		for (Customer cus : customer) {
 			System.out.println(cus);
 		}
@@ -33,12 +32,14 @@ public class Methods {
 
 	// список покупателей, у которых номер кредитной карточки находится в
 	// заданном интервале.
-	public void numberCards(int from, int to) {
+	public ArrayList<Customer> numberCards(int from, int to) {
+		ArrayList<Customer> cust = new ArrayList<Customer>();
 		for (Customer cus : customer) {
 			if (cus.getCreditCardNumber() >= from
 					&& cus.getCreditCardNumber() <= to) {
-				System.out.println(cus);
+				cust.add(cus);
 			}
 		}
+		return cust;
 	}
 }
