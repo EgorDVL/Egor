@@ -3,19 +3,23 @@ character set utf8;
 
 use diplBD;
 
+drop table if exists users;
 drop table if exists roles;
 drop table if exists adminQuery;
 drop table if exists profiless;
-drop table if exists users;
-drop table if exists direction;
-drop table if exists test;
-drop table if exists questions;
 drop table if exists answers;
 drop table if exists Answerillustration;
 drop table if exists commentTest;
-drop table if exists questioninterview;
+drop table if exists questions;
+drop table if exists test;
 drop table if exists answerInterview;
 drop table if exists commentInterview;
+drop table if exists questioninterview;
+drop table if exists direction;
+drop table if exists rezults;
+
+
+
 
 # Таблица ролей
 create table if not exists roles(
@@ -58,11 +62,14 @@ create table if not exists users(
 `login` varchar(20)not null unique,
 `password` varchar(20)not null,
 `roleId` int not null,
+`profilessId` int not null,
 primary key(idUsers),
 foreign key (roleId) references roles(idRoles)
+	on delete restrict on update cascade,
+    foreign key (profilessId) references profiless(idProfiless)
 	on delete restrict on update cascade
 );
-insert into users values(default,'Vasua','Pupkin','login1','password1',1);
+insert into users values(default,'Vasua','Pupkin','login1','password1',1,1);
 
 
 # Таблица направление
@@ -73,17 +80,26 @@ primary key (idDirection)
 );
 insert into direction values(default,'Java');
 
+# Таблица результатов
+create table if not exists rezults(
+`idRezult` int not null AUTO_INCREMENT,
+`testRezult` int not null,
+`nameTest` varchar(30) not null,
+primary key (idRezult)
+);
+insert into rezults values (default,15,'Основы Java');
 
 # Таблица test
 create table if not exists test(
 `idTest` int not null AUTO_INCREMENT,
 `nameTest` varchar(30) not null,
 `directionId` int not null,
+`rezultId` int not null,
 primary key (idTest),
 foreign key (directionId) references direction(idDirection)
 	on delete restrict on update cascade
 );
-insert into test values (default,'elementary',1);
+insert into test values (default,'elementary',1,1);
 
 
 # Таблица Вопросы тест
