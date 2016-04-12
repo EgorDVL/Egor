@@ -16,7 +16,7 @@ drop table if exists answerInterview;
 drop table if exists commentInterview;
 drop table if exists questioninterview;
 drop table if exists direction;
-drop table if exists rezults;
+drop table if exists results;
 
 
 
@@ -42,16 +42,26 @@ primary key (idAdminQuery)
 );
 insert into adminQuery values(default,'hello','11.04.16',1,'Vasua');
 
+# Таблица результатов
+create table if not exists results(
+`idResult` int not null AUTO_INCREMENT,
+`testResult` int not null,
+`nameTest` varchar(30) not null,
+primary key (idResult)
+);
+insert into results values (default,15,'Основы Java');
+
 # Таблица profile
 create table if not exists profiless(
 `idProfiless` int not null AUTO_INCREMENT,
 `e-mail` varchar(30) not null,
-`rezults` varchar(20) not null,
+`resultId` int not null,
 `queryid` int not null,
-`testid` int not null,
-primary key (idProfiless)
+primary key (idProfiless),
+foreign key (resultId) references results(idResult)
+	on delete restrict on update cascade
 );
-insert into profiless values(default,'EgorDVL@mail.ru','passed',1,1);
+insert into profiless values(default,'EgorDVL@mail.ru',1,1);
 
 
 # Таблица user
@@ -80,21 +90,13 @@ primary key (idDirection)
 );
 insert into direction values(default,'Java');
 
-# Таблица результатов
-create table if not exists rezults(
-`idRezult` int not null AUTO_INCREMENT,
-`testRezult` int not null,
-`nameTest` varchar(30) not null,
-primary key (idRezult)
-);
-insert into rezults values (default,15,'Основы Java');
 
 # Таблица test
 create table if not exists test(
 `idTest` int not null AUTO_INCREMENT,
 `nameTest` varchar(30) not null,
 `directionId` int not null,
-`rezultId` int not null,
+`result` int not null,
 primary key (idTest),
 foreign key (directionId) references direction(idDirection)
 	on delete restrict on update cascade
