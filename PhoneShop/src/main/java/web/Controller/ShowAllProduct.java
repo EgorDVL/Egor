@@ -11,8 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-import static util.page.page.SHOW_ALL_PRODUCT;
-import static util.page.page.SHOW_PRODUCT;
+import static util.page.page.*;
 
 /**
  * Created by Egor on 19.10.2016.

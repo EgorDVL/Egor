@@ -14,26 +14,27 @@
     <title>Title</title>
 </head>
 <body>
-
+<a href="Main">Main page</a>
+<br>
 
 <h3 id="phones-header">Phones</h3>
 
 <div id="phones">
     <ul>
         <li>
-            <a href="ShowProductByCategory?type=Phones&manufacturer=APPLE">Apple</a>
+            <a href="ShowProductSelection?type=Phones&manufacturer=APPLE">Apple</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Phones&manufacturer=SAMSUNG">SAMSUNG</a>
+            <a href="ShowProductSelection?type=Phones&manufacturer=SAMSUNG">SAMSUNG</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Phones&manufacturer=LG">LG</a>
+            <a href="ShowProductSelection?type=Phones&manufacturer=LG">LG</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Phones&manufacturer=NOKIA">NOKIA</a>
+            <a href="ShowProductSelection?type=Phones&manufacturer=NOKIA">NOKIA</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Phones&manufacturer=LENOVO">LENOVO</a>
+            <a href="ShowProductSelection?type=Phones&manufacturer=LENOVO">LENOVO</a>
         </li>
     </ul>
 </div>
@@ -43,19 +44,19 @@
 <div id="tablets">
     <ul>
         <li>
-            <a href="ShowProductByCategory?type=Tablets&manufacturer=APPLE">Apple</a>
+            <a href="ShowProductSelection?type=Tablets&manufacturer=APPLE">Apple</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Tablets&manufacturer=SAMSUNG">SAMSUNG</a>
+            <a href="ShowProductSelection?type=Tablets&manufacturer=SAMSUNG">SAMSUNG</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Tablets&manufacturer=LG">LG</a>
+            <a href="ShowProductSelection?type=Tablets&manufacturer=LG">LG</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Tablets&manufacturer=NOKIA">NOKIA</a>
+            <a href="ShowProductSelection?type=Tablets&manufacturer=NOKIA">NOKIA</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Tablets&manufacturer=LENOVO">LENOVO</a>
+            <a href="ShowProductSelection?type=Tablets&manufacturer=LENOVO">LENOVO</a>
         </li>
     </ul>
 </div>
@@ -65,49 +66,26 @@
 <div id="accessories">
     <ul>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=COVERS">COVERS</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=COVERS">COVERS</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=PROTECTIVE_SCREEN">PROTECTIVE_SCREEN</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=PROTECTIVE_SCREEN">PROTECTIVE_SCREEN</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=PROTECTIVE_GLASSES">PROTECTIVE_GLASSES</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=PROTECTIVE_GLASSES">PROTECTIVE_GLASSES</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=HEADSET">HEADSET</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=HEADSET">HEADSET</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=CHARGING_DEVICE">CHARGING_DEVICE</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=CHARGING_DEVICE">CHARGING_DEVICE</a>
         </li>
         <li>
-            <a href="ShowProductByCategory?type=Accessories&subcategory=MONOPODS_FOR_SELFIE">MONOPODS_FOR_SELFIE</a>
+            <a href="ShowProductSelection?type=Accessories&subcategory=MONOPODS_FOR_SELFIE">MONOPODS_FOR_SELFIE</a>
         </li>
     </ul>
 </div>
-
-
-<c:forEach items="${productList}" var="productList">
-    <tr>
-        <td>Product number - ${productList.productId}</td>
-        <br>
-        <td>Name - ${productList.name}</td>
-        <br>
-        <td>Price - ${productList.price}</td>
-        <br>
-        <td>Count - ${productList.count}</td>
-        <br>
-        <td>Description id - ${productList.descriptionId}</td>
-        <br>
-        <td>Characteristic id - ${productList.characteristicId}</td>
-        <br>
-        <td>Manufacturer Id - ${productList.manufacturerId}</td>
-        <br>
-        <td>Category Id - ${productList.categoryId}</td>
-    </tr>
-</c:forEach>
-
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/main.js"></script>
-
 </body>
 </html>

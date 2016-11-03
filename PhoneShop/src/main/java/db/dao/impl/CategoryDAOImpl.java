@@ -24,6 +24,7 @@ public class CategoryDAOImpl implements CategoryDAO {
     private static final String UPDATE_CATEGORY = "update category set nameCategory = ?, subcatId = ?, where categoryId = ?";
     private static final String GET_CATEGORY_BY_ID = "select categoryId ,nameCategory, subcatId from category where categoryId = ?";
     private static final String GET_ALL_CATEGORYS = "select categoryId ,nameCategory, subcatId from category";
+    private static final String GET_CATEGORY_BY_SUBCATEGORY = "select categoryId ,nameCategory, subcatId from category where subcatId = ?";
 
     @Override
     public int createCategory(Category category, Connection con) throws SQLException {
@@ -115,5 +116,30 @@ public class CategoryDAOImpl implements CategoryDAO {
             DBManager.closeStat(st);
         }
         return true;
+    }
+
+    @Override
+    public Category getCategoryBySubCategory(int subcategoryId, Connection con) throws SQLException {
+        Category category = null;
+        PreparedStatement st = null;
+        ResultSet set = null;
+        try {
+            st = con.prepareStatement(GET_CATEGORY_BY_SUBCATEGORY);
+            st.setInt(1, subcategoryId);
+            set = st.executeQuery();
+            while (set.next()) {
+                category = new Category();
+                category.setCategoryId(set.getInt(1));
+                category.setNameCategory(CategoryEnam.getValue(set.getString(2)));
+                category.setSubcatId(set.getInt(3));
+            }
+        } catch (SQLException e) {
+            LOG.error("Can't get category by subcategory");
+            throw e;
+        } finally {
+            DBManager.closeRs(set);
+            DBManager.closeStat(st);
+        }
+        return category;
     }
 }

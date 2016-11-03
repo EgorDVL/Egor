@@ -1,12 +1,8 @@
 package web.Controller;
 
-import static util.ErrorMessage.*;
-import static util.page.page.*;
-
 import Service.UserService;
 import bean.User;
 import bean.enams.UserRole;
-import db.dao.DaoFactory;
 import org.apache.log4j.Logger;
 import util.LoginValidator;
 import web.form.LoginForm;
@@ -18,6 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.text.MessageFormat;
+
+import static util.ErrorMessage.EMPTY_FIELD_ERROR;
+import static util.ErrorMessage.WRONG_INPUT_ERROR;
+import static util.page.page.LOGIN_PAGE;
+import static util.page.page.MAIN_PAGE;
 
 /**
  * Created by Egor on 07.10.2016.

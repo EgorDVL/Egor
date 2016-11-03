@@ -38,12 +38,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>ShowProductByCategory</servlet-name>
+        <servlet-name>ShowProductSelection</servlet-name>
         <servlet-class>web.Controller.ShowProductSelection</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ShowProductByCategory</servlet-name>
-        <url-pattern>/ShowProductByCategory</url-pattern>
+        <servlet-name>ShowProductSelection</servlet-name>
+        <url-pattern>/ShowProductSelection</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -63,7 +63,7 @@
         <servlet-name>ShowAllProduct</servlet-name>
         <url-pattern>/ShowAllProduct</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>Logout</servlet-name>
         <servlet-class>web.Controller.Logout</servlet-class>

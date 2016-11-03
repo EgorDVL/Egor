@@ -24,6 +24,14 @@ public class Basket {
         return totalPrice;
     }
 
+    public void cleanBasket() {
+        productMap.clear();
+    }
+
+    public void cleanTotalPrice() {
+        totalPrice = 0.0;
+    }
+
     public void addProduct(Product product) {
         totalPrice += product.getPrice();
         if (productMap.containsKey(product)) {

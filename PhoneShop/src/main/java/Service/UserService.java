@@ -16,9 +16,9 @@ public class UserService {
     private static final Logger LOG = Logger.getLogger(UserService.class);
     private UserDAO userDao = DaoFactory.getUserDAO();
 
-    public boolean createUser(String email, String password, String name, String surname, String phone, int roleId) {
+    public boolean createUser(String email, String password, String name, String surname, String phone, String city, int roleId) {
         Connection con = DBManager.getConnection();
-        User user = new User(email, password, name, surname, phone, roleId);
+        User user = new User(email, password, name, surname, phone, city, roleId);
         boolean result = false;
         try {
             result = userDao.createUser(user, con) != -1;

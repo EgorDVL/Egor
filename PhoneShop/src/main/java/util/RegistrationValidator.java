@@ -14,6 +14,8 @@ public class RegistrationValidator {
     private static final String NAME_REGEX = "[A-Za-z]+|[А-Яа-я]+";
     private static final String SURNAME_REGEX = "[A-Za-z]+|[А-Яа-я]+";
     private static final String PHONE_REGEX = "^\\+[1-9]{1}[0-9]{3,14}$";
+    private static final String CITY_REGEX = "[A-Za-z]+|[А-Яа-я]+";
+
 
     public static boolean nonEmptyCheckRegistration(RegistrationForm registrationForm) {
         return registrationForm.getEmail() == null ||
@@ -25,7 +27,9 @@ public class RegistrationValidator {
                 registrationForm.getName().isEmpty() ||
                 registrationForm.getSurname().isEmpty() ||
                 registrationForm.getPhone() == null ||
-                registrationForm.getPhone().isEmpty();
+                registrationForm.getPhone().isEmpty() ||
+                registrationForm.getCity().isEmpty() ||
+                registrationForm.getCity() == null;
     }
 
     public static boolean validateForm(RegistrationForm registrationForm) {
@@ -33,7 +37,8 @@ public class RegistrationValidator {
                 && validatePassword(registrationForm.getPassword())
                 && validateName(registrationForm.getName())
                 && validateSurName(registrationForm.getSurname())
-                && validatePhone(registrationForm.getPhone());
+                && validatePhone(registrationForm.getPhone())
+                && validateCity(registrationForm.getCity());
     }
 
     private static boolean validateEmail(String email) {
@@ -63,6 +68,12 @@ public class RegistrationValidator {
     private static boolean validatePhone(String phone) {
         Pattern pattern = Pattern.compile(PHONE_REGEX);
         Matcher matcher = pattern.matcher(phone);
+        return matcher.matches();
+    }
+
+    private static boolean validateCity(String name) {
+        Pattern pattern = Pattern.compile(CITY_REGEX);
+        Matcher matcher = pattern.matcher(name);
         return matcher.matches();
     }
 }

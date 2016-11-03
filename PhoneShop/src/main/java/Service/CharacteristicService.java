@@ -8,6 +8,8 @@ import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Egor on 19.10.2016.
@@ -29,5 +31,20 @@ public class CharacteristicService {
             DBManager.closeCon(con);
         }
         return characteristic;
+    }
+
+    public List<Characteristic> getAllCharacteristic() {
+        Connection con = DBManager.getConnection();
+        List<Characteristic> characteristicList = new ArrayList<>();
+        try {
+            characteristicList = characteristicDAO.getAllCharacteristic(con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't get all characteristic");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return characteristicList;
     }
 }

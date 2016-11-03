@@ -12,10 +12,6 @@ public enum ManufacturerEnam {
     public int getValueInt() {
         return value;
     }
-//    public static ManufacturerEnam getValueInt(int manufacturerId) {
-//        return ManufacturerEnam.values()[manufacturerId - 1];
-//    }
-
 
     public static ManufacturerEnam getValue(String manufacturer) {
         for (ManufacturerEnam manufacturerEnam : values()) {

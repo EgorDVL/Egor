@@ -8,6 +8,8 @@ import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Egor on 19.10.2016.
@@ -29,5 +31,20 @@ public class ManufacturerService {
             DBManager.closeCon(con);
         }
         return manufacturer;
+    }
+
+    public List<Manufacturer> getAllManufacturer() {
+        Connection con = DBManager.getConnection();
+        List<Manufacturer> manufacturerList = new ArrayList<>();
+        try {
+            manufacturerList = manufacturerDAO.getAllManufacturer(con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't get all manufacturer");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return manufacturerList;
     }
 }

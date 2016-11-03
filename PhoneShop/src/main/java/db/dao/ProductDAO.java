@@ -22,8 +22,16 @@ public interface ProductDAO {
 
     boolean updateProduct(Product product, Connection con) throws SQLException;
 
+    boolean updateProductCount(int productId, int count, Connection con) throws SQLException;
+
     List<Product> getProductByCategory(int categoryId, int manufacturerId, Connection con) throws SQLException;
 
     List<Product> getProductByCategoryByAccessory(int subcatId, Connection con) throws SQLException;
+
+    List<Product> getSortedProductByCategoryAndParam(String categoryId, String sortParam, Connection con) throws SQLException;
+
+    List<Product> getSortedProductByParam(String sortParam, Connection con) throws SQLException;
+
+    List<Product> getAllProductSearch(String sqlQuery, Connection con) throws SQLException;
 
 }

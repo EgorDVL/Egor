@@ -9,17 +9,19 @@ public class RegistrationForm {
     private String name;
     private String surname;
     private String phone;
+    private String city;
     private int roleId;
 
     public RegistrationForm() {
     }
 
-    public RegistrationForm(String email, String password, String name, String surname, String phone, int roleId) {
+    public RegistrationForm(String email, String password, String name, String surname, String phone, String city, int roleId) {
         this.email = email;
         this.password = password;
         this.name = name;
         this.surname = surname;
         this.phone = phone;
+        this.city = city;
         this.roleId = roleId;
     }
 
@@ -63,6 +65,14 @@ public class RegistrationForm {
         this.phone = phone;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public int getRoleId() {
         return roleId;
     }
@@ -79,6 +89,7 @@ public class RegistrationForm {
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", phone='" + phone + '\'' +
+                ", city='" + city + '\'' +
                 ", roleId=" + roleId +
                 '}';
     }

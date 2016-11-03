@@ -18,7 +18,6 @@
 <c:forEach items="${basket.contains}" var="product">
     <td>Count products - ${product.value}</td>
     <br>
-    <br>
     <tr>
         <td>Product number - ${product.key.productId}</td>
         <br>
@@ -39,12 +38,14 @@
     <br>
     <br>
 
-    <form action="addToBasket" method="post">
+    <form action="AddToBasket" method="post">
         <input type="hidden" name="productId" value="${product.key.productId}">
         <input type="hidden" name="nameDoing" value="delete">
         <input type="submit" value="delete">
     </form>
 </c:forEach>
-
+<a href="checkout.jsp">Checkout</a>
+<a href="Main">Main page</a>
+</form>
 </body>
 </html>

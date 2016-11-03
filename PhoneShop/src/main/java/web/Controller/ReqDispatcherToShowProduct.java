@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static util.page.page.*;
+import static util.page.page.PRODUCT_SELECTION_PAGE;
 
 /**
  * Created by Egor on 11.10.2016.

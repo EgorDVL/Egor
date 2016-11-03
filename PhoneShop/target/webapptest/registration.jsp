@@ -29,6 +29,9 @@
     <lable for="phone">Phone</lable>
     <input placeholder="+38(011)-111-11-11" name="phone" type="text">
 
+    <lable for="city">City</lable>
+    <input placeholder="Kharkiv" name="city" type="text">
+
     <input type="hidden" id="role" name="roleId" value="2">
     <br>
     <input id="submit-btn" type="submit" value="submit">

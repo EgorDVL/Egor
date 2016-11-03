@@ -21,6 +21,10 @@ ${user.name} : ${role}
 <br>
 <a href="chip-basket.jsp">Chip-basket</a>
 <br>
+<a href="ShowAllPurchases">Show all sales</a>
+<br>
+<a href="Search">Search</a>
+<br>
 <a href="Logout">Exit</a>
 
 </body>

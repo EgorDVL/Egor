@@ -1,7 +1,5 @@
 package web.Controller;
 
-import static util.ErrorMessage.*;
-
 import Service.UserService;
 import org.apache.log4j.Logger;
 import util.RegistrationValidator;
@@ -14,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+import static util.ErrorMessage.*;
 import static util.page.page.LOGIN_PAGE;
 import static util.page.page.REGISTRATION_PAGE;
 
@@ -55,7 +54,7 @@ public class Registration extends HttpServlet {
             return;
         }
         boolean result = userService.createUser(registrationForm.getEmail(), registrationForm.getPassword(),
-                registrationForm.getName(), registrationForm.getSurname(), registrationForm.getPhone(),
+                registrationForm.getName(), registrationForm.getSurname(), registrationForm.getPhone(), registrationForm.getCity(),
                 registrationForm.getRoleId());
         if (!result) {
             errorMessageToRegistrationForm(resp, session, USER_ALREADY_EXISTS);
@@ -72,8 +71,9 @@ public class Registration extends HttpServlet {
         String name = req.getParameter("name");
         String surname = req.getParameter("surname");
         String phone = req.getParameter("phone");
+        String city = req.getParameter("city");
         int roleId = Integer.parseInt(req.getParameter("roleId"));
-        return new RegistrationForm(email, password, name, surname, phone, roleId);
+        return new RegistrationForm(email, password, name, surname, phone, city, roleId);
     }
 
     private void errorMessageToRegistrationForm(HttpServletResponse resp, HttpSession session, String errorMessage) throws IOException {

@@ -7,18 +7,20 @@ public class User {
     private String name;
     private String surname;
     private String phone;
+    private String city;
     private int roleId;
 
     public User() {
         super();
     }
 
-    public User(String email, String password, String name, String surname, String phone, int roleId) {
+    public User(String email, String password, String name, String surname, String phone, String city, int roleId) {
         this.email = email;
         this.password = password;
         this.name = name;
         this.surname = surname;
         this.phone = phone;
+        this.city = city;
         this.roleId = roleId;
     }
 
@@ -70,6 +72,14 @@ public class User {
         this.phone = phone;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public int getRoleId() {
         return roleId;
     }
@@ -87,6 +97,7 @@ public class User {
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", phone='" + phone + '\'' +
+                ", city='" + city + '\'' +
                 ", roleId=" + roleId +
                 '}';
     }

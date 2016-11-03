@@ -8,4 +8,5 @@ public class ErrorMessage {
     public static final String WRONG_INPUT_ERROR = "Wrong input error";
     public static final String ILLEGAL_CHARACTER_ERROR = "Illegal character error";
     public static final String USER_ALREADY_EXISTS = "User already exists";
+    public static final String CHECKOUT_ERROR = "Checkout error";
 }

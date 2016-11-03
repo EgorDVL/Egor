@@ -63,12 +63,13 @@
         </tr>
     </c:otherwise>
 </c:choose>
-
-<form action="addToBasket" method="post">
+<form action="AddToBasket" method="post">
     <input type="hidden" name="productId" value="${product.productId}">
     <input type="hidden" name="nameDoing" value="add">
     <input type="submit" value="buy">
 </form>
-
+<br>
+<a href="Main">Main page</a>
+<br>
 </body>
 </html>

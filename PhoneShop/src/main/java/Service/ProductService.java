@@ -20,6 +20,51 @@ public class ProductService {
 
     private ProductDAO productDAO = DaoFactory.getProductDao();
 
+    public List<Product> getAllProductForSearch(String sqlQuery) {
+        Connection con = DBManager.getConnection();
+        List<Product> productList = new ArrayList<>();
+        try {
+            productList = productDAO.getAllProductSearch(sqlQuery, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't get product list");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return productList;
+    }
+
+    public List<Product> getAllProductSortedByParam(String sortParam) {
+        Connection con = DBManager.getConnection();
+        List<Product> productList = new ArrayList<>();
+        try {
+            productList = productDAO.getSortedProductByParam(sortParam, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't sorted product");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return productList;
+    }
+
+    public List<Product> getAllProductSortedByCategoryAndParam(String categoryId, String sprtParam) {
+        Connection con = DBManager.getConnection();
+        List<Product> productList = new ArrayList<>();
+        try {
+            productList = productDAO.getSortedProductByCategoryAndParam(categoryId, sprtParam, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't sorted product");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return productList;
+    }
+
     public List<Product> getAllProductByCategoryAccessory(int subCategoryAccessoryId) {
         Connection con = DBManager.getConnection();
         List<Product> productList = new ArrayList<>();

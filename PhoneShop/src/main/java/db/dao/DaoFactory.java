@@ -42,4 +42,8 @@ public final class DaoFactory {
     public static SubcategoryAccessoriesDAO getSubcategoryAccessoriesDao() {
         return new SubcategoryAccessoriesDAOImpl();
     }
+
+    public static SalesDAO getSalesDAO() {
+        return new SalesDAOImpl();
+    }
 }

@@ -19,11 +19,11 @@ public class UserDAOImpl implements UserDAO {
 
     private static final Logger LOG = Logger.getLogger(UserDAOImpl.class);
 
-    private static final String CREATE_USER = "insert into user values(default, ?, ?, ?, ?, ?, ?)";
-    private static final String UPDATE_USER = "update user set email = ?, password = ?, name = ?, surname = ?, phone=?, roleId = ? where userId = ?";
-    private static final String GET_USER_BY_ID = "select userId, email, password, name, surname, phone, roleId from user where userId = ?";
-    private static final String GET_USER_BY_EMAIL = "select userId , email, password, name, surname, phone, roleId from user where email= ?";
-    private static final String GET_ALL_USERS = "select userId , email, password, name, surname, phone, roleId from user";
+    private static final String CREATE_USER = "insert into user values(default, ?, ?, ?, ?, ?, ?, ?)";
+    private static final String UPDATE_USER = "update user set email = ?, password = ?, name = ?, surname = ?, phone=?, city=?, roleId = ? where userId = ?";
+    private static final String GET_USER_BY_ID = "select userId, email, password, name, surname, phone, city, roleId from user where userId = ?";
+    private static final String GET_USER_BY_EMAIL = "select userId , email, password, name, surname, phone, city, roleId from user where email= ?";
+    private static final String GET_ALL_USERS = "select userId , email, password, name, surname, phone, city, roleId from user";
 
 
     @Override
@@ -38,7 +38,8 @@ public class UserDAOImpl implements UserDAO {
             st.setString(3, user.getName());
             st.setString(4, user.getSurname());
             st.setString(5, user.getPhone());
-            st.setInt(6, user.getRoleId());
+            st.setString(6, user.getCity());
+            st.setInt(7, user.getRoleId());
             st.executeUpdate();
             rs = st.getGeneratedKeys();
             while (rs.next()) {
@@ -71,7 +72,8 @@ public class UserDAOImpl implements UserDAO {
                 user.setName(set.getString(4));
                 user.setSurname(set.getString(5));
                 user.setPhone(set.getString(6));
-                user.setRoleId(set.getInt(7));
+                user.setCity(set.getString(7));
+                user.setRoleId(set.getInt(8));
             }
         } catch (SQLException e) {
             LOG.error("Can't get user by Id");
@@ -100,7 +102,8 @@ public class UserDAOImpl implements UserDAO {
                 user.setName(rs.getString(4));
                 user.setSurname(rs.getString(5));
                 user.setPhone(rs.getString(6));
-                user.setRoleId(rs.getInt(7));
+                user.setCity(rs.getString(7));
+                user.setRoleId(rs.getInt(8));
             }
         } catch (SQLException e) {
             LOG.error("Can't get user by email");
@@ -128,7 +131,8 @@ public class UserDAOImpl implements UserDAO {
                 user.setName(rs.getString(4));
                 user.setSurname(rs.getString(5));
                 user.setPhone(rs.getString(6));
-                user.setRoleId(rs.getInt(7));
+                user.setCity(rs.getString(7));
+                user.setRoleId(rs.getInt(8));
                 userList.add(user);
             }
         } catch (SQLException e) {
@@ -152,8 +156,9 @@ public class UserDAOImpl implements UserDAO {
             st.setString(3, user.getName());
             st.setString(4, user.getSurname());
             st.setString(5, user.getPhone());
-            st.setLong(6, user.getRoleId());
-            st.setInt(7, user.getUserId());
+            st.setString(6, user.getCity());
+            st.setLong(7, user.getRoleId());
+            st.setInt(8, user.getUserId());
             st.executeUpdate();
         } catch (SQLException e) {
             LOG.error("Can't update user");

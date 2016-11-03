@@ -66,4 +66,19 @@ public class CategoryService {
         }
         return categoryList;
     }
+
+    public Category getCategoryBySubcategory(int subcategory) {
+        Connection con = DBManager.getConnection();
+        Category category = new Category();
+        try {
+            category = categoryDAO.getCategoryBySubCategory(subcategory, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("Can't get category by subcategory");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return category;
+    }
 }

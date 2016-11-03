@@ -5,17 +5,19 @@ import db.dao.*;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by Egor on 23.09.2016.
  */
 public class Main {
+
     public static void main(String[] args) {
 //        Connection con = DBManager.getConnection();
+//        Date currentDate = new Date();
+//        Sales sales = new Sales("SSS@gmail.com", "Fff", "FSF", "+380507070123", "Kiev",
+//                "dffefef", 11, DeliveryMethod.PICKUP, PaymentMethod.CASH_PAYMENT, 1, 500, 2, 1000, currentDate);
+
 //        User user = new User("Vasua@gmail.com", "1111", "Egor", "Zhyzhko", 0507070342, 1);
 //        Category category = new Category(CategoryEnam.PHONE, 0);
 //        Characteristic characteristic = new Characteristic("green", 12, 4.56, "Intel dual" , 8.43 , 5.6 , 13);
@@ -24,8 +26,10 @@ public class Main {
 //        Order order = new Order("Kharkiv", "Lenina str 23", PaymentMethod.CASH_PAYMENT, DeliveryMethod.PICKUP, "norm phone", 2);
 //        OrderedProduct orderedProduct = new OrderedProduct(3, 3);
 //        SubcategoryAccessories subcategoryAccessories = new SubcategoryAccessories(SubCategoryAccessory.COVERS);
-//        Product product = new Product("iphone 7", 800, 1, 1, 1, 1);
+//        Product product = new Product("iphone 7s", 800, 22, 1, 1, 1, 1);
 //        try {
+//            System.out.println(DaoFactory.getSalesDAO().getAllSales(con));
+//            DaoFactory.getSalesDAO().createSales(sales, con);
 //            Product
 //            DaoFactory.getProductDao().createProduct(product,con);
 //            System.out.println(DaoFactory.getProductDao().getProductById(1,con));

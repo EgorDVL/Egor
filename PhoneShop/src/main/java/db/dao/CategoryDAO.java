@@ -18,4 +18,7 @@ public interface CategoryDAO {
     List<Category> getAllCategory(Connection con) throws SQLException;
 
     boolean updateCategory(Category category, Connection con) throws SQLException;
+
+    Category getCategoryBySubCategory(int subcategoryId, Connection con) throws SQLException;
+
 }
