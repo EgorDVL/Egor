@@ -19,15 +19,18 @@ public class Main {
 //                "dffefef", 11, DeliveryMethod.PICKUP, PaymentMethod.CASH_PAYMENT, 1, 500, 2, 1000, currentDate);
 
 //        User user = new User("Vasua@gmail.com", "1111", "Egor", "Zhyzhko", 0507070342, 1);
-//        Category category = new Category(CategoryEnam.PHONE, 0);
-//        Characteristic characteristic = new Characteristic("green", 12, 4.56, "Intel dual" , 8.43 , 5.6 , 13);
+//        Category category = new Category(CategoryEnam.ACCESSORIES, 3);
+//        Characteristic characteristic = new Characteristic(null, 0, 0.0, null , 0.0 , 0.0 , 0.0);
 //        Description description = new Description("trololo lo lala lslsls");
 //        Manufacturer manufacturer = new Manufacturer(ManufacturerEnam.LG);
 //        Order order = new Order("Kharkiv", "Lenina str 23", PaymentMethod.CASH_PAYMENT, DeliveryMethod.PICKUP, "norm phone", 2);
 //        OrderedProduct orderedProduct = new OrderedProduct(3, 3);
 //        SubcategoryAccessories subcategoryAccessories = new SubcategoryAccessories(SubCategoryAccessory.COVERS);
-//        Product product = new Product("iphone 7s", 800, 22, 1, 1, 1, 1);
+//        Product product = new Product("monop", 35, 22, 4, 3, 3, 1);
 //        try {
+//            DaoFactory.getProductDao().createProduct(product, con);
+//            DaoFactory.getCharacteristicDao().createCharacteristic(characteristic,con);
+//            DaoFactory.getDescriptionDao().createDescription(description,con);
 //            System.out.println(DaoFactory.getSalesDAO().getAllSales(con));
 //            DaoFactory.getSalesDAO().createSales(sales, con);
 //            Product

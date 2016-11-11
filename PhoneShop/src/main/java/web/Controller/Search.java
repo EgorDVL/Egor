@@ -10,6 +10,7 @@ import bean.Manufacturer;
 import bean.Product;
 import db.QueryConstructor;
 import org.apache.log4j.Logger;
+import util.FiltrForSearch;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
+import java.util.Set;
 
 import static util.page.page.*;
 
@@ -43,7 +45,18 @@ public class Search extends HttpServlet {
         req.setAttribute("manufacturers", manufacturers);
 
         List<Characteristic> characteristics = characteristicService.getAllCharacteristic();
-        req.setAttribute("characteristics", characteristics);
+
+        Set<Double> mainCameraSet = FiltrForSearch.getUniqueMainCamera(characteristics);
+        Set<Double> screenSizeSet = FiltrForSearch.getUniqueScreenSize(characteristics);
+        Set<Integer> memorySet = FiltrForSearch.getUniqueMemory(characteristics);
+        Set<String> colorSet = FiltrForSearch.getUniqueColor(characteristics);
+        Set<Double> ramSet = FiltrForSearch.getUniqueRam(characteristics);
+
+        req.setAttribute("mainCameraSet", mainCameraSet);
+        req.setAttribute("screenSizeSet", screenSizeSet);
+        req.setAttribute("memorySet", memorySet);
+        req.setAttribute("colorSet", colorSet);
+        req.setAttribute("ramSet", ramSet);
 
         req.getRequestDispatcher(SEARCH).forward(req, resp);
         LOG.info("Search - end");

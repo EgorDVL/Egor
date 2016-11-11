@@ -16,5 +16,6 @@ public class page {
     public final static String CHIP_BASKET = "chip-basket.jsp";
     public final static String SEARCH = "search.jsp";
     public final static String SEARCH_LIST_PRODUCTS = "search-list-products.jsp";
-
+    public final static String ADD_NEW_PRODUCT = "add-new-product.jsp";
+    public final static String ADD_NEW_PRODUCT_ACCESSORIES = "add-new-product-accessories.jsp";
 }

@@ -25,6 +25,8 @@ ${user.name} : ${role}
 <br>
 <a href="Search">Search</a>
 <br>
+<a href="add-product-by-category.jsp">Add new Product</a>
+<br>
 <a href="Logout">Exit</a>
 
 </body>

@@ -6676,3 +6676,660 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operati
 2016-11-03 16:58:46 INFO  DBManager:29 - Start create connection
 2016-11-03 16:58:46 INFO  DBManager:37 - Create connection end
 2016-11-03 16:58:46 INFO  Search:49 - Search - end
+2016-11-10 23:44:10 INFO  Login:33 - Login - clean Error message - start
+2016-11-10 23:44:10 INFO  Login:41 - Login - clean Error message - start
+2016-11-10 23:44:12 INFO  Login:47 - Login controller start
+2016-11-10 23:44:12 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:13 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:13 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-10 23:44:16 INFO  Search:38 - Search - start
+2016-11-10 23:44:16 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:16 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:16 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:16 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:16 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:16 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:16 INFO  Search:49 - Search - end
+2016-11-10 23:44:31 INFO  Search:54 - Search - start
+2016-11-10 23:44:31 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:31 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:32 INFO  Search:75 - Search - end
+2016-11-10 23:44:39 INFO  SortForSearch:29 - Sort for search list - start
+2016-11-10 23:44:39 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:39 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:39 INFO  SortForSearch:40 - Sort for search list - end
+2016-11-10 23:44:46 INFO  ShowProductSelection:36 - Show category - start
+2016-11-10 23:44:46 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:46 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:46 INFO  ShowProductSelection:59 - Show category - end
+2016-11-10 23:44:48 INFO  ShowProductSelection:64 - Show selected product - start
+2016-11-10 23:44:48 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:48 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:48 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:48 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:48 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:48 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:48 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:48 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:48 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:49 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:49 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:49 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:49 INFO  ShowProductSelection:85 - Show selected product - end
+2016-11-10 23:44:54 INFO  ShowAllProduct:29 - Show all product - start
+2016-11-10 23:44:54 INFO  DBManager:29 - Start create connection
+2016-11-10 23:44:54 INFO  DBManager:37 - Create connection end
+2016-11-10 23:44:54 INFO  ShowAllProduct:33 - Show all product - end
+2016-11-10 23:45:09 INFO  ShowAllPurchases:27 - Get all purchases for admin - start
+2016-11-10 23:45:09 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:09 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:09 INFO  ShowAllPurchases:31 - Get all purchases for admin - end
+2016-11-10 23:45:17 INFO  Logout:20 - Logout command - start
+2016-11-10 23:45:17 INFO  Logout:24 - Session has been invalidated
+2016-11-10 23:45:17 INFO  Logout:27 - Logout command - end
+2016-11-10 23:45:17 INFO  Login:33 - Login - clean Error message - start
+2016-11-10 23:45:17 INFO  Login:41 - Login - clean Error message - start
+2016-11-10 23:45:20 INFO  Login:47 - Login controller start
+2016-11-10 23:45:20 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:20 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:20 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-10 23:45:21 INFO  ShowAllProduct:29 - Show all product - start
+2016-11-10 23:45:21 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:21 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:21 INFO  ShowAllProduct:33 - Show all product - end
+2016-11-10 23:45:22 INFO  AddToBasket:30 - Work with basket - start
+2016-11-10 23:45:22 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:22 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:22 INFO  AddToBasket:48 - Add product to basket - start
+2016-11-10 23:45:22 INFO  AddToBasket:54 - Add product to basket - end
+2016-11-10 23:45:22 INFO  AddToBasket:42 - Work with basket - end
+2016-11-10 23:45:27 INFO  ShowAllProduct:29 - Show all product - start
+2016-11-10 23:45:27 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:27 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:27 INFO  ShowAllProduct:33 - Show all product - end
+2016-11-10 23:45:28 INFO  AddToBasket:30 - Work with basket - start
+2016-11-10 23:45:28 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:28 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:28 INFO  AddToBasket:48 - Add product to basket - start
+2016-11-10 23:45:28 INFO  AddToBasket:42 - Work with basket - end
+2016-11-10 23:45:32 INFO  Logout:20 - Logout command - start
+2016-11-10 23:45:32 INFO  Logout:24 - Session has been invalidated
+2016-11-10 23:45:32 INFO  Logout:27 - Logout command - end
+2016-11-10 23:45:32 INFO  Login:33 - Login - clean Error message - start
+2016-11-10 23:45:32 INFO  Login:41 - Login - clean Error message - start
+2016-11-10 23:45:33 INFO  Login:47 - Login controller start
+2016-11-10 23:45:33 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:33 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:33 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-10 23:45:35 INFO  ShowAllPurchases:27 - Get all purchases for admin - start
+2016-11-10 23:45:35 INFO  DBManager:29 - Start create connection
+2016-11-10 23:45:35 INFO  DBManager:37 - Create connection end
+2016-11-10 23:45:35 INFO  ShowAllPurchases:31 - Get all purchases for admin - end
+2016-11-11 19:50:56 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 19:50:56 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 19:50:59 INFO  Login:47 - Login controller start
+2016-11-11 19:50:59 INFO  DBManager:29 - Start create connection
+2016-11-11 19:50:59 INFO  DBManager:37 - Create connection end
+2016-11-11 19:51:00 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 19:51:05 INFO  AddNewProduct:36 - Add new product - clean Error message - start
+2016-11-11 19:52:17 INFO  AddNewProduct:55 - Add new product - start
+2016-11-11 19:52:17 ERROR AddNewProduct:73 - Illegal character error
+2016-11-11 19:52:40 INFO  AddNewProduct:55 - Add new product - start
+2016-11-11 19:52:40 ERROR AddNewProduct:73 - Illegal character error
+2016-11-11 19:58:56 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 19:58:56 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 19:58:56 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 19:58:56 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 19:58:58 INFO  Login:47 - Login controller start
+2016-11-11 19:58:58 INFO  DBManager:29 - Start create connection
+2016-11-11 19:58:58 INFO  DBManager:37 - Create connection end
+2016-11-11 19:58:59 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 19:59:13 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 19:59:13 ERROR AddNewProduct:63 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 20:00:11 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 20:00:11 ERROR AddNewProduct:74 - Illegal character error
+2016-11-11 20:03:04 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:03:04 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:03:04 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:03:04 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:03:06 INFO  Login:47 - Login controller start
+2016-11-11 20:03:06 INFO  DBManager:29 - Start create connection
+2016-11-11 20:03:06 INFO  DBManager:37 - Create connection end
+2016-11-11 20:03:07 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 20:03:29 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 20:03:29 ERROR AddNewProduct:74 - Illegal character error
+2016-11-11 20:08:10 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:08:10 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:08:10 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:08:10 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:08:13 INFO  Login:47 - Login controller start
+2016-11-11 20:08:13 INFO  DBManager:29 - Start create connection
+2016-11-11 20:08:13 INFO  DBManager:37 - Create connection end
+2016-11-11 20:08:14 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 20:08:16 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:08:18 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 20:08:18 ERROR AddNewProduct:63 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 20:08:28 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 20:08:28 ERROR AddNewProduct:63 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 20:09:15 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:09:15 INFO  AddNewProduct:42 - Add new product - clean Error message - end
+2016-11-11 20:09:23 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:09:29 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:09:30 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:09:31 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:09:32 INFO  AddNewProductAccessories:45 - add new product accessories - start
+2016-11-11 20:09:56 INFO  AddNewProductAccessories:45 - add new product accessories - start
+2016-11-11 20:09:56 INFO  DBManager:29 - Start create connection
+2016-11-11 20:09:56 INFO  DBManager:37 - Create connection end
+2016-11-11 20:09:57 INFO  AddNewProductAccessories:45 - add new product accessories - start
+2016-11-11 20:09:57 INFO  DBManager:29 - Start create connection
+2016-11-11 20:09:57 INFO  DBManager:37 - Create connection end
+2016-11-11 20:09:57 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 20:09:57 ERROR ProductService:61 - can't create product
+2016-11-11 20:09:57 INFO  AddNewProductAccessories:53 - add new product accessories - end
+2016-11-11 20:09:57 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 20:09:57 ERROR ProductService:61 - can't create product
+2016-11-11 20:09:58 INFO  AddNewProductAccessories:53 - add new product accessories - end
+2016-11-11 20:10:45 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:11:02 INFO  AddNewProductAccessories:45 - add new product accessories - start
+2016-11-11 20:11:02 INFO  DBManager:29 - Start create connection
+2016-11-11 20:11:02 INFO  DBManager:37 - Create connection end
+2016-11-11 20:11:02 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 20:11:02 ERROR ProductService:61 - can't create product
+2016-11-11 20:11:02 INFO  AddNewProductAccessories:53 - add new product accessories - end
+2016-11-11 20:19:35 INFO  DBManager:29 - Start create connection
+2016-11-11 20:19:40 INFO  DBManager:37 - Create connection end
+2016-11-11 20:19:41 ERROR CategoryDAOImpl:44 - Can't create new Category
+2016-11-11 20:32:46 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:32:46 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:32:46 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 20:32:46 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 20:32:47 INFO  Login:47 - Login controller start
+2016-11-11 20:32:47 INFO  DBManager:29 - Start create connection
+2016-11-11 20:32:48 INFO  DBManager:37 - Create connection end
+2016-11-11 20:32:48 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 20:32:53 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 20:33:05 INFO  AddNewProductAccessories:45 - add new product accessories - start
+2016-11-11 20:33:05 INFO  DBManager:29 - Start create connection
+2016-11-11 20:33:05 INFO  DBManager:37 - Create connection end
+2016-11-11 20:33:05 ERROR CharacteristicDAOImpl:55 - Can't create new Characheristic
+2016-11-11 20:33:05 ERROR ProductService:63 - can't create product
+2016-11-11 20:33:05 INFO  AddNewProductAccessories:53 - add new product accessories - end
+2016-11-11 21:32:33 INFO  DBManager:29 - Start create connection
+2016-11-11 21:32:35 INFO  DBManager:37 - Create connection end
+2016-11-11 21:33:58 INFO  DBManager:29 - Start create connection
+2016-11-11 21:33:59 INFO  DBManager:37 - Create connection end
+2016-11-11 21:42:10 INFO  DBManager:29 - Start create connection
+2016-11-11 21:42:11 INFO  DBManager:37 - Create connection end
+2016-11-11 21:42:12 ERROR CharacteristicDAOImpl:55 - Can't create new Characheristic
+2016-11-11 21:42:38 INFO  DBManager:29 - Start create connection
+2016-11-11 21:42:38 INFO  DBManager:37 - Create connection end
+2016-11-11 21:42:39 ERROR CharacteristicDAOImpl:55 - Can't create new Characheristic
+2016-11-11 21:46:13 INFO  DBManager:29 - Start create connection
+2016-11-11 21:46:13 INFO  DBManager:37 - Create connection end
+2016-11-11 21:46:38 INFO  DBManager:29 - Start create connection
+2016-11-11 21:46:39 INFO  DBManager:37 - Create connection end
+2016-11-11 21:48:00 INFO  DBManager:29 - Start create connection
+2016-11-11 21:48:00 INFO  DBManager:37 - Create connection end
+2016-11-11 21:49:09 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 21:49:09 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 21:49:12 INFO  Login:47 - Login controller start
+2016-11-11 21:49:12 INFO  DBManager:29 - Start create connection
+2016-11-11 21:49:12 INFO  DBManager:37 - Create connection end
+2016-11-11 21:49:12 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 21:49:18 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 21:49:34 INFO  AddNewProductAccessories:46 - add new product accessories - start
+2016-11-11 21:49:34 INFO  DBManager:29 - Start create connection
+2016-11-11 21:49:34 INFO  DBManager:37 - Create connection end
+2016-11-11 21:49:35 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 21:49:35 ERROR ProductService:66 - can't create product
+2016-11-11 21:49:35 INFO  AddNewProductAccessories:60 - add new product accessories - end
+2016-11-11 21:51:31 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 21:51:31 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 21:51:31 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 21:51:31 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 21:51:33 INFO  Login:47 - Login controller start
+2016-11-11 21:51:33 INFO  DBManager:29 - Start create connection
+2016-11-11 21:51:33 INFO  DBManager:37 - Create connection end
+2016-11-11 21:51:33 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 21:51:38 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 21:51:52 INFO  AddNewProductAccessories:46 - add new product accessories - start
+2016-11-11 21:51:52 INFO  DBManager:29 - Start create connection
+2016-11-11 21:51:52 INFO  DBManager:37 - Create connection end
+2016-11-11 21:51:52 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 21:51:52 ERROR ProductService:64 - can't create product
+2016-11-11 21:51:52 INFO  AddNewProductAccessories:60 - add new product accessories - end
+2016-11-11 21:53:26 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 21:53:26 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 21:53:28 INFO  Login:47 - Login controller start
+2016-11-11 21:53:28 INFO  DBManager:29 - Start create connection
+2016-11-11 21:53:28 INFO  DBManager:37 - Create connection end
+2016-11-11 21:53:29 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 21:53:34 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 21:53:48 INFO  AddNewProductAccessories:46 - add new product accessories - start
+2016-11-11 21:53:48 INFO  DBManager:29 - Start create connection
+2016-11-11 21:53:48 INFO  DBManager:37 - Create connection end
+2016-11-11 21:53:48 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 21:53:48 ERROR ProductService:63 - can't create product
+2016-11-11 21:53:48 INFO  AddNewProductAccessories:60 - add new product accessories - end
+2016-11-11 21:56:32 INFO  DBManager:29 - Start create connection
+2016-11-11 21:56:33 INFO  DBManager:37 - Create connection end
+2016-11-11 21:56:33 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 21:59:53 INFO  DBManager:29 - Start create connection
+2016-11-11 21:59:53 INFO  DBManager:37 - Create connection end
+2016-11-11 21:59:53 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 22:01:03 INFO  DBManager:29 - Start create connection
+2016-11-11 22:01:03 INFO  DBManager:37 - Create connection end
+2016-11-11 22:01:03 ERROR ProductDAOImpl:65 - Can't create new product
+2016-11-11 22:03:35 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:03:35 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:03:36 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:03:36 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:03:37 INFO  Login:47 - Login controller start
+2016-11-11 22:03:37 INFO  DBManager:29 - Start create connection
+2016-11-11 22:03:37 INFO  DBManager:37 - Create connection end
+2016-11-11 22:03:38 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:03:43 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 22:03:56 INFO  AddNewProductAccessories:46 - add new product accessories - start
+2016-11-11 22:03:56 INFO  DBManager:29 - Start create connection
+2016-11-11 22:03:56 INFO  DBManager:37 - Create connection end
+2016-11-11 22:03:56 INFO  AddNewProductAccessories:60 - add new product accessories - end
+2016-11-11 22:04:19 INFO  AddNewProduct:37 - Add new product - clean Error message - start
+2016-11-11 22:04:48 INFO  AddNewProduct:56 - Add new product - start
+2016-11-11 22:04:48 ERROR AddNewProduct:74 - Illegal character error
+2016-11-11 22:15:30 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:15:30 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:15:32 INFO  Login:47 - Login controller start
+2016-11-11 22:15:32 INFO  DBManager:29 - Start create connection
+2016-11-11 22:15:33 INFO  DBManager:37 - Create connection end
+2016-11-11 22:15:33 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:16:01 INFO  AddNewProduct:46 - Add new product - start
+2016-11-11 22:16:01 ERROR AddNewProduct:64 - Illegal character error
+2016-11-11 22:16:01 INFO  AddNewProduct:34 - Add new product - clean Error message - start
+2016-11-11 22:16:01 INFO  AddNewProduct:40 - Add new product - clean Error message - end
+2016-11-11 22:19:25 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:19:25 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:19:25 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:19:25 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:19:28 INFO  Login:47 - Login controller start
+2016-11-11 22:19:28 INFO  DBManager:29 - Start create connection
+2016-11-11 22:19:28 INFO  DBManager:37 - Create connection end
+2016-11-11 22:19:29 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:19:43 INFO  AddNewProduct:46 - Add new product - start
+2016-11-11 22:19:43 ERROR AddNewProduct:53 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:19:43 INFO  AddNewProduct:34 - Add new product - clean Error message - start
+2016-11-11 22:19:43 INFO  AddNewProduct:40 - Add new product - clean Error message - end
+2016-11-11 22:19:46 INFO  AddNewProduct:46 - Add new product - start
+2016-11-11 22:19:46 ERROR AddNewProduct:53 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:19:46 INFO  AddNewProduct:34 - Add new product - clean Error message - start
+2016-11-11 22:19:46 INFO  AddNewProduct:40 - Add new product - clean Error message - end
+2016-11-11 22:20:16 INFO  AddNewProduct:46 - Add new product - start
+2016-11-11 22:20:16 INFO  DBManager:29 - Start create connection
+2016-11-11 22:20:16 INFO  DBManager:37 - Create connection end
+2016-11-11 22:20:16 INFO  AddNewProduct:68 - Add new product - end
+2016-11-11 22:21:23 INFO  AddNewProductAccessories:46 - add new product accessories - start
+2016-11-11 22:32:48 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:32:48 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:32:48 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:32:48 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:32:50 INFO  Login:47 - Login controller start
+2016-11-11 22:32:50 INFO  DBManager:29 - Start create connection
+2016-11-11 22:32:51 INFO  DBManager:37 - Create connection end
+2016-11-11 22:32:51 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:32:59 INFO  AddNewProductAccessories:50 - add new product accessories - start
+2016-11-11 22:32:59 ERROR AddNewProductAccessories:57 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:32:59 INFO  AddNewProduct:35 - Add new product - clean Error message - start
+2016-11-11 22:32:59 INFO  AddNewProduct:41 - Add new product - clean Error message - end
+2016-11-11 22:34:08 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:34:08 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:34:11 INFO  Login:47 - Login controller start
+2016-11-11 22:34:11 INFO  DBManager:29 - Start create connection
+2016-11-11 22:34:11 INFO  DBManager:37 - Create connection end
+2016-11-11 22:34:11 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:34:18 INFO  AddNewProductAccessories:50 - add new product accessories - start
+2016-11-11 22:34:18 ERROR AddNewProductAccessories:57 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:34:18 INFO  AddNewProductAccessories:37 - Add new product - clean Error message - start
+2016-11-11 22:34:18 INFO  AddNewProductAccessories:44 - Add new product - clean Error message - end
+2016-11-11 22:34:26 INFO  AddNewProductAccessories:50 - add new product accessories - start
+2016-11-11 22:34:26 ERROR AddNewProductAccessories:57 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:34:26 INFO  AddNewProductAccessories:37 - Add new product - clean Error message - start
+2016-11-11 22:34:26 INFO  AddNewProductAccessories:44 - Add new product - clean Error message - end
+2016-11-11 22:34:28 INFO  AddNewProductAccessories:50 - add new product accessories - start
+2016-11-11 22:34:28 ERROR AddNewProductAccessories:57 - Empty field error or incorrect value. Redirect to create apartment page
+2016-11-11 22:34:28 INFO  AddNewProductAccessories:37 - Add new product - clean Error message - start
+2016-11-11 22:34:28 INFO  AddNewProductAccessories:44 - Add new product - clean Error message - end
+2016-11-11 22:34:44 INFO  AddNewProductAccessories:50 - add new product accessories - start
+2016-11-11 22:34:44 INFO  DBManager:29 - Start create connection
+2016-11-11 22:34:44 INFO  DBManager:37 - Create connection end
+2016-11-11 22:34:44 INFO  AddNewProductAccessories:73 - add new product accessories - end
+2016-11-11 22:37:26 INFO  AddNewProduct:47 - Add new product - start
+2016-11-11 22:37:26 INFO  DBManager:29 - Start create connection
+2016-11-11 22:37:26 INFO  DBManager:37 - Create connection end
+2016-11-11 22:37:26 INFO  AddNewProduct:68 - Add new product - end
+2016-11-11 22:59:04 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 22:59:04 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 22:59:07 INFO  Login:47 - Login controller start
+2016-11-11 22:59:07 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:08 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:08 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 22:59:36 INFO  ShowAllProduct:29 - Show all product - start
+2016-11-11 22:59:36 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:36 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:37 INFO  ShowAllProduct:33 - Show all product - end
+2016-11-11 22:59:39 INFO  Sort:44 - Sort for all product - start
+2016-11-11 22:59:39 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:40 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:41 INFO  Sort:49 - Sort for all product - end
+2016-11-11 22:59:51 INFO  ShowAllPurchases:27 - Get all purchases for admin - start
+2016-11-11 22:59:51 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:51 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:52 INFO  ShowAllPurchases:31 - Get all purchases for admin - end
+2016-11-11 22:59:58 INFO  Search:38 - Search - start
+2016-11-11 22:59:58 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:58 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:58 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:58 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:58 INFO  DBManager:29 - Start create connection
+2016-11-11 22:59:58 INFO  DBManager:37 - Create connection end
+2016-11-11 22:59:58 INFO  Search:49 - Search - end
+2016-11-11 23:11:02 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 23:11:02 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 23:11:08 INFO  Login:47 - Login controller start
+2016-11-11 23:11:08 INFO  DBManager:29 - Start create connection
+2016-11-11 23:11:09 INFO  DBManager:37 - Create connection end
+2016-11-11 23:11:09 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 23:11:12 INFO  Search:38 - Search - start
+2016-11-11 23:11:12 INFO  DBManager:29 - Start create connection
+2016-11-11 23:11:12 INFO  DBManager:37 - Create connection end
+2016-11-11 23:11:12 INFO  DBManager:29 - Start create connection
+2016-11-11 23:11:12 INFO  DBManager:37 - Create connection end
+2016-11-11 23:11:12 INFO  DBManager:29 - Start create connection
+2016-11-11 23:11:12 INFO  DBManager:37 - Create connection end
+2016-11-11 23:11:12 INFO  Search:49 - Search - end
+2016-11-11 23:29:26 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 23:29:26 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 23:29:26 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 23:29:26 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 23:29:28 INFO  Login:47 - Login controller start
+2016-11-11 23:29:28 INFO  DBManager:29 - Start create connection
+2016-11-11 23:29:28 INFO  DBManager:37 - Create connection end
+2016-11-11 23:29:29 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 23:29:30 INFO  Search:38 - Search - start
+2016-11-11 23:29:30 INFO  DBManager:29 - Start create connection
+2016-11-11 23:29:30 INFO  DBManager:37 - Create connection end
+2016-11-11 23:29:30 INFO  DBManager:29 - Start create connection
+2016-11-11 23:29:30 INFO  DBManager:37 - Create connection end
+2016-11-11 23:29:30 INFO  DBManager:29 - Start create connection
+2016-11-11 23:29:30 INFO  DBManager:37 - Create connection end
+2016-11-11 23:29:31 INFO  Search:49 - Search - end
+2016-11-11 23:30:20 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 23:30:20 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 23:30:20 INFO  Login:33 - Login - clean Error message - start
+2016-11-11 23:30:20 INFO  Login:41 - Login - clean Error message - start
+2016-11-11 23:30:22 INFO  Login:47 - Login controller start
+2016-11-11 23:30:22 INFO  DBManager:29 - Start create connection
+2016-11-11 23:30:22 INFO  DBManager:37 - Create connection end
+2016-11-11 23:30:23 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-11 23:30:25 INFO  Search:38 - Search - start
+2016-11-11 23:30:25 INFO  DBManager:29 - Start create connection
+2016-11-11 23:30:25 INFO  DBManager:37 - Create connection end
+2016-11-11 23:30:25 INFO  DBManager:29 - Start create connection
+2016-11-11 23:30:25 INFO  DBManager:37 - Create connection end
+2016-11-11 23:30:25 INFO  DBManager:29 - Start create connection
+2016-11-11 23:30:25 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:12 INFO  Search:38 - Search - start
+2016-11-12 00:08:12 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:12 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:12 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:12 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:12 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:12 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:53 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 00:08:53 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 00:08:55 INFO  Login:47 - Login controller start
+2016-11-12 00:08:55 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:56 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:56 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 00:08:58 INFO  Search:38 - Search - start
+2016-11-12 00:08:58 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:58 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:58 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:58 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:58 INFO  DBManager:29 - Start create connection
+2016-11-12 00:08:58 INFO  DBManager:37 - Create connection end
+2016-11-12 00:08:58 INFO  Search:49 - Search - end
+2016-11-12 01:10:26 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:10:26 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:10:28 INFO  Login:47 - Login controller start
+2016-11-12 01:10:28 INFO  DBManager:29 - Start create connection
+2016-11-12 01:10:28 INFO  DBManager:37 - Create connection end
+2016-11-12 01:10:29 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:10:30 INFO  Search:40 - Search - start
+2016-11-12 01:10:30 INFO  DBManager:29 - Start create connection
+2016-11-12 01:10:30 INFO  DBManager:37 - Create connection end
+2016-11-12 01:10:30 INFO  DBManager:29 - Start create connection
+2016-11-12 01:10:30 INFO  DBManager:37 - Create connection end
+2016-11-12 01:10:30 INFO  DBManager:29 - Start create connection
+2016-11-12 01:10:30 INFO  DBManager:37 - Create connection end
+2016-11-12 01:10:31 INFO  Search:62 - Search - end
+2016-11-12 01:11:42 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:11:42 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:11:42 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:11:42 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:11:44 INFO  Login:47 - Login controller start
+2016-11-12 01:11:44 INFO  DBManager:29 - Start create connection
+2016-11-12 01:11:44 INFO  DBManager:37 - Create connection end
+2016-11-12 01:11:45 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:11:46 INFO  Search:40 - Search - start
+2016-11-12 01:11:46 INFO  DBManager:29 - Start create connection
+2016-11-12 01:11:46 INFO  DBManager:37 - Create connection end
+2016-11-12 01:11:46 INFO  DBManager:29 - Start create connection
+2016-11-12 01:11:46 INFO  DBManager:37 - Create connection end
+2016-11-12 01:11:46 INFO  DBManager:29 - Start create connection
+2016-11-12 01:11:46 INFO  DBManager:37 - Create connection end
+2016-11-12 01:11:47 INFO  Search:62 - Search - end
+2016-11-12 01:12:02 INFO  Search:67 - Search - start
+2016-11-12 01:12:02 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:03 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:03 INFO  Search:88 - Search - end
+2016-11-12 01:12:07 INFO  Search:40 - Search - start
+2016-11-12 01:12:07 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:07 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:07 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:07 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:07 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:07 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:07 INFO  Search:62 - Search - end
+2016-11-12 01:12:12 INFO  Search:67 - Search - start
+2016-11-12 01:12:12 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:12 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:12 INFO  Search:88 - Search - end
+2016-11-12 01:12:14 INFO  Search:40 - Search - start
+2016-11-12 01:12:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:12:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:12:14 INFO  Search:62 - Search - end
+2016-11-12 01:14:30 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:14:30 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:14:32 INFO  Login:47 - Login controller start
+2016-11-12 01:14:32 INFO  DBManager:29 - Start create connection
+2016-11-12 01:14:32 INFO  DBManager:37 - Create connection end
+2016-11-12 01:14:32 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:14:34 INFO  Search:40 - Search - start
+2016-11-12 01:14:34 INFO  DBManager:29 - Start create connection
+2016-11-12 01:14:34 INFO  DBManager:37 - Create connection end
+2016-11-12 01:14:34 INFO  DBManager:29 - Start create connection
+2016-11-12 01:14:34 INFO  DBManager:37 - Create connection end
+2016-11-12 01:14:34 INFO  DBManager:29 - Start create connection
+2016-11-12 01:14:34 INFO  DBManager:37 - Create connection end
+2016-11-12 01:15:17 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:15:17 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:15:17 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:15:17 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:15:19 INFO  Login:47 - Login controller start
+2016-11-12 01:15:19 INFO  DBManager:29 - Start create connection
+2016-11-12 01:15:19 INFO  DBManager:37 - Create connection end
+2016-11-12 01:15:20 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:15:21 INFO  Search:40 - Search - start
+2016-11-12 01:15:21 INFO  DBManager:29 - Start create connection
+2016-11-12 01:15:21 INFO  DBManager:37 - Create connection end
+2016-11-12 01:15:21 INFO  DBManager:29 - Start create connection
+2016-11-12 01:15:21 INFO  DBManager:37 - Create connection end
+2016-11-12 01:15:21 INFO  DBManager:29 - Start create connection
+2016-11-12 01:15:21 INFO  DBManager:37 - Create connection end
+2016-11-12 01:15:22 INFO  Search:62 - Search - end
+2016-11-12 01:18:15 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:18:15 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:18:16 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:18:16 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:18:17 INFO  Login:47 - Login controller start
+2016-11-12 01:18:17 INFO  DBManager:29 - Start create connection
+2016-11-12 01:18:18 INFO  DBManager:37 - Create connection end
+2016-11-12 01:18:18 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:18:20 INFO  Search:40 - Search - start
+2016-11-12 01:18:20 INFO  DBManager:29 - Start create connection
+2016-11-12 01:18:20 INFO  DBManager:37 - Create connection end
+2016-11-12 01:18:20 INFO  DBManager:29 - Start create connection
+2016-11-12 01:18:20 INFO  DBManager:37 - Create connection end
+2016-11-12 01:18:20 INFO  DBManager:29 - Start create connection
+2016-11-12 01:18:20 INFO  DBManager:37 - Create connection end
+2016-11-12 01:18:20 INFO  Search:62 - Search - end
+2016-11-12 01:19:48 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:19:48 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:19:50 INFO  Login:47 - Login controller start
+2016-11-12 01:19:50 INFO  DBManager:29 - Start create connection
+2016-11-12 01:19:50 INFO  DBManager:37 - Create connection end
+2016-11-12 01:19:51 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:19:52 INFO  Search:40 - Search - start
+2016-11-12 01:19:52 INFO  DBManager:29 - Start create connection
+2016-11-12 01:19:52 INFO  DBManager:37 - Create connection end
+2016-11-12 01:19:52 INFO  DBManager:29 - Start create connection
+2016-11-12 01:19:52 INFO  DBManager:37 - Create connection end
+2016-11-12 01:19:52 INFO  DBManager:29 - Start create connection
+2016-11-12 01:19:52 INFO  DBManager:37 - Create connection end
+2016-11-12 01:21:19 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:21:19 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:21:19 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:21:19 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:21:20 INFO  Login:47 - Login controller start
+2016-11-12 01:21:20 INFO  DBManager:29 - Start create connection
+2016-11-12 01:21:21 INFO  DBManager:37 - Create connection end
+2016-11-12 01:21:21 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:21:23 INFO  Search:40 - Search - start
+2016-11-12 01:21:23 INFO  DBManager:29 - Start create connection
+2016-11-12 01:21:23 INFO  DBManager:37 - Create connection end
+2016-11-12 01:21:23 INFO  DBManager:29 - Start create connection
+2016-11-12 01:21:23 INFO  DBManager:37 - Create connection end
+2016-11-12 01:21:23 INFO  DBManager:29 - Start create connection
+2016-11-12 01:21:23 INFO  DBManager:37 - Create connection end
+2016-11-12 01:21:23 INFO  Search:62 - Search - end
+2016-11-12 01:28:52 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:28:52 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:28:54 INFO  Login:47 - Login controller start
+2016-11-12 01:28:54 INFO  DBManager:29 - Start create connection
+2016-11-12 01:28:55 INFO  DBManager:37 - Create connection end
+2016-11-12 01:28:55 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:28:56 INFO  Search:40 - Search - start
+2016-11-12 01:28:56 INFO  DBManager:29 - Start create connection
+2016-11-12 01:28:57 INFO  DBManager:37 - Create connection end
+2016-11-12 01:28:57 INFO  DBManager:29 - Start create connection
+2016-11-12 01:28:57 INFO  DBManager:37 - Create connection end
+2016-11-12 01:28:57 INFO  DBManager:29 - Start create connection
+2016-11-12 01:28:57 INFO  DBManager:37 - Create connection end
+2016-11-12 01:28:58 INFO  Search:62 - Search - end
+2016-11-12 01:29:55 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:29:55 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:29:57 INFO  Login:47 - Login controller start
+2016-11-12 01:29:57 INFO  DBManager:29 - Start create connection
+2016-11-12 01:29:57 INFO  DBManager:37 - Create connection end
+2016-11-12 01:29:57 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:29:59 INFO  Search:40 - Search - start
+2016-11-12 01:29:59 INFO  DBManager:29 - Start create connection
+2016-11-12 01:29:59 INFO  DBManager:37 - Create connection end
+2016-11-12 01:29:59 INFO  DBManager:29 - Start create connection
+2016-11-12 01:29:59 INFO  DBManager:37 - Create connection end
+2016-11-12 01:29:59 INFO  DBManager:29 - Start create connection
+2016-11-12 01:29:59 INFO  DBManager:37 - Create connection end
+2016-11-12 01:29:59 INFO  Search:62 - Search - end
+2016-11-12 01:30:03 INFO  Search:67 - Search - start
+2016-11-12 01:30:03 INFO  DBManager:29 - Start create connection
+2016-11-12 01:30:03 INFO  DBManager:37 - Create connection end
+2016-11-12 01:30:03 INFO  Search:88 - Search - end
+2016-11-12 01:30:10 INFO  Search:40 - Search - start
+2016-11-12 01:30:10 INFO  DBManager:29 - Start create connection
+2016-11-12 01:30:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:30:10 INFO  DBManager:29 - Start create connection
+2016-11-12 01:30:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:30:10 INFO  DBManager:29 - Start create connection
+2016-11-12 01:30:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:30:10 INFO  Search:62 - Search - end
+2016-11-12 01:33:10 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:33:10 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:33:10 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:33:10 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:33:12 INFO  Login:47 - Login controller start
+2016-11-12 01:33:12 INFO  DBManager:29 - Start create connection
+2016-11-12 01:33:12 INFO  DBManager:37 - Create connection end
+2016-11-12 01:33:13 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:33:14 INFO  Search:40 - Search - start
+2016-11-12 01:33:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:33:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:33:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:33:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:33:14 INFO  DBManager:29 - Start create connection
+2016-11-12 01:33:14 INFO  DBManager:37 - Create connection end
+2016-11-12 01:33:15 INFO  Search:62 - Search - end
+2016-11-12 01:34:06 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:34:06 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:34:06 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:34:06 INFO  Login:41 - Login - clean Error message - start
+2016-11-12 01:34:08 INFO  Login:47 - Login controller start
+2016-11-12 01:34:08 INFO  DBManager:29 - Start create connection
+2016-11-12 01:34:08 INFO  DBManager:37 - Create connection end
+2016-11-12 01:34:08 INFO  Login:68 - User has been logged as: admin@gmail.com role: ADMIN Redirect to GET
+2016-11-12 01:34:09 INFO  Search:40 - Search - start
+2016-11-12 01:34:09 INFO  DBManager:29 - Start create connection
+2016-11-12 01:34:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:34:10 INFO  DBManager:29 - Start create connection
+2016-11-12 01:34:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:34:10 INFO  DBManager:29 - Start create connection
+2016-11-12 01:34:10 INFO  DBManager:37 - Create connection end
+2016-11-12 01:34:10 INFO  Search:62 - Search - end
+2016-11-12 01:35:18 INFO  AddNewProduct:47 - Add new product - start
+2016-11-12 01:35:18 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:18 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:18 INFO  AddNewProduct:68 - Add new product - end
+2016-11-12 01:35:22 INFO  Search:40 - Search - start
+2016-11-12 01:35:22 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:22 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:22 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:22 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:22 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:22 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:22 INFO  Search:62 - Search - end
+2016-11-12 01:35:25 INFO  Search:67 - Search - start
+2016-11-12 01:35:25 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:25 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:25 INFO  Search:88 - Search - end
+2016-11-12 01:35:29 INFO  ShowAllProduct:38 - Show selected product - start
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:29 INFO  DBManager:29 - Start create connection
+2016-11-12 01:35:29 INFO  DBManager:37 - Create connection end
+2016-11-12 01:35:30 INFO  ShowAllProduct:60 - Show selected product - end
+2016-11-12 01:35:38 INFO  Logout:20 - Logout command - start
+2016-11-12 01:35:38 INFO  Logout:24 - Session has been invalidated
+2016-11-12 01:35:38 INFO  Logout:27 - Logout command - end
+2016-11-12 01:35:38 INFO  Login:33 - Login - clean Error message - start
+2016-11-12 01:35:38 INFO  Login:41 - Login - clean Error message - start

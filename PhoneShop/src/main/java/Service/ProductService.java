@@ -1,10 +1,13 @@
 package Service;
 
+import bean.Category;
+import bean.Characteristic;
+import bean.Description;
 import bean.Product;
+import bean.enams.CategoryEnam;
 import bean.enams.ManufacturerEnam;
 import db.DBManager;
-import db.dao.DaoFactory;
-import db.dao.ProductDAO;
+import db.dao.*;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
@@ -19,6 +22,51 @@ public class ProductService {
     private static final Logger LOG = Logger.getLogger(ProductService.class);
 
     private ProductDAO productDAO = DaoFactory.getProductDao();
+    private CharacteristicDAO characteristicDAO = DaoFactory.getCharacteristicDao();
+    private DescriptionDAO descriptionDAO = DaoFactory.getDescriptionDao();
+    private CategoryDAO categoryDAO = DaoFactory.getCategoryDao();
+
+
+    public boolean createNewProduct(int categoryId, int manufacturerId, String name, int price, int count, String description,
+                                    String color, int memory, double screenSize, String processor, double ram, double frontCamera, double mainCamera) {
+        Connection con = DBManager.getConnection();
+        Characteristic characteristic = new Characteristic(color, memory, screenSize, processor, ram, frontCamera, mainCamera);
+        Description desc = new Description(description);
+        try {
+            int characteristicId = characteristicDAO.createCharacteristic(characteristic, con);
+            int descriprionId = descriptionDAO.createDescription(desc, con);
+            Product product = new Product(name, price, count, descriprionId, characteristicId, manufacturerId, categoryId);
+            productDAO.createProduct(product, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("can't create product");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return true;
+    }
+
+    public boolean createNewProductAccessories(int subCategoryAccessory, int manufacturerId, String name, int price, int count, String description) {
+        Connection con = DBManager.getConnection();
+        Category category = new Category(CategoryEnam.ACCESSORIES, subCategoryAccessory);
+        Description desc = new Description(description);
+        Characteristic characteristic = new Characteristic(null, 0, 0, null, 0, 0, 0);
+        try {
+            int categoryId = categoryDAO.createCategory(category, con);
+            int descriprionId = descriptionDAO.createDescription(desc, con);
+            int characheristicId = characteristicDAO.createCharacteristic(characteristic, con);
+            Product product = new Product(name, price, count, descriprionId, characheristicId, manufacturerId, categoryId);
+            productDAO.createProduct(product, con);
+            DBManager.commit(con);
+        } catch (SQLException e) {
+            LOG.error("can't create product");
+            DBManager.rollback(con);
+        } finally {
+            DBManager.closeCon(con);
+        }
+        return true;
+    }
 
     public List<Product> getAllProductForSearch(String sqlQuery) {
         Connection con = DBManager.getConnection();
