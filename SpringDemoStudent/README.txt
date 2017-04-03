@@ -1,3 +1,3 @@
-Спринг демо.
-Учебный проект.
-Использовано: Spring security, Spring Ioc/DI , Hibernate(JDBC), Spring MVC и тд.
+РЎРїСЂРёРЅРі РґРµРјРѕ.
+РЈС‡РµР±РЅС‹Р№ РїСЂРѕРµРєС‚.
+РСЃРїРѕР»СЊР·РѕРІР°РЅРѕ: Spring security, Spring Ioc/DI , Hibernate(JDBC), Spring MVC Рё С‚Рґ.
