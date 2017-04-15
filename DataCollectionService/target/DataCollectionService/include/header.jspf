@@ -1,0 +1,11 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+
+<div id="header">
+    <ul class="nav nav-pills">
+        <li><a href="/field/all">Fields</a></li>
+        <li><a href="/response/all">Responses (${response})</a></li>
+    </ul>
+</div>
+<div class="line"></div>
