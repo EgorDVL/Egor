@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="DataCollectionService:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="DataCollectionService.war">
-      <element id="artifact" artifact-name="DataCollectionService:war exploded" />
-    </root>
-  </artifact>
-</component>
