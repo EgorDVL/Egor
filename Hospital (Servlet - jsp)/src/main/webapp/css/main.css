@@ -1,0 +1,237 @@
+#container {
+    width: 500px;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: black;
+    width: 100%;
+    height: 35px;
+}
+
+#login-form {
+    hegth: 40px;
+}
+
+#login-error-message {
+    color: red;
+    margin-top: 20px;
+    font-size: 120%;
+    margin-left: -13px;
+}
+
+#login-successful-message {
+    color: green;
+    margin-top: 20px;
+    font-size: 120%;
+    margin-left: 24px
+}
+
+.login-main {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+#signup-button {
+    margin-left: 23%;
+}
+
+.header-role {
+    color: white !important;
+}
+
+#header a {
+    color: grey;
+}
+
+.header-position-role {
+    margin-left: 1000px;
+}
+
+.header-position-logout {
+    margin-left: 50px;
+}
+
+.main-body-menu {
+    position: fixed;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 228px;
+    height: 100%;
+    background-color: black;
+}
+
+#main-body-menu a:hover {
+    color: white;
+    background: grey;
+    border-radius: 10px;
+}
+
+.show-all-doctors {
+    margin-left: 245px;
+    padding-top: 30px;
+}
+
+.doctors-selection-lable {
+    margin-left: 290px;
+    text-align: center;
+    width: 61%;
+    background: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 4px solid #0f17da;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 70px 13px 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#show-doctor-main-body {
+    padding-left: 255px;
+    padding-top: 80px;
+}
+
+.user-info {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.user-show-left {
+    float: left;
+    margin-right: 15px;
+    width: 400px;
+}
+
+.user-image {
+    min-height: 320px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-show-right {
+    width: 400px;
+    float: right;
+    margin-right: 510px;
+    margin-top: 70px;
+}
+
+.user-description {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: #DA2533;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.user-show-patients {
+    display: inline-block;
+    text-decoration: none;
+    margin: 3px;
+}
+
+.user-show-tab-header {
+    text-align: center;
+    width: 50%;
+    background: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 4px solid #DA2533;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#user-show-tab-attribute {
+    width: 705px;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+}
+
+.sort-value {
+    margin-left: 200px;
+}
+
+.sort-button {
+    margin-left: -200px;
+    margin-top: -30px;
+}
+
+#create-new-healing {
+    margin-left: 290px;
+}
+
+#search-patient-container {
+    width: 500px;
+    padding-top: 10%;
+    margin-left: 33%;
+}
+
+.add-image {
+    padding-top: 200px;
+    margin-left: 43%;
+}
+
+#add-image-lable {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+#add-image-button {
+    margin-left: 66px;
+    margin-top: 30px;
+}
+
+#main-body-image {
+    margin-left: 32%;
+    padding-top: 150px;
+    width: 565px;
+    height: 250px;
+}
+
+.error {
+    text-align: left;
+    float: none;
+    clear: none;
+    display: inline;
+    color: red;
+    font-size: 14px;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+th.header {
+    background-image: url(/bootstrap/img/bg.gif);
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-left: 20px;
+    border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+
+th.headerSortUp {
+    background-image: url(/bootstrap/img/asc.gif);
+    background-color: #f2f7fb;
+}
+
+th.headerSortDown {
+    background-image: url(/bootstrap/img/desc.gif);
+    background-color: #f2f7fb;
+}
+

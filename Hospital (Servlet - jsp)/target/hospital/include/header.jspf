@@ -1,0 +1,45 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+
+<c:set var="language"
+       value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}"
+       scope="session"/>
+<fmt:setLocale value="${language}"/>
+
+<div id="header">
+    <ul class="nav nav-pills">
+        <li>
+            <form class="form-inline">
+                <select name="language">
+                    <option value="en" ${language == 'en' ? 'selected' : ''}><fmt:message
+                            key="login.language.eng"/></option>
+                    <option value="ru" ${language == 'ru' ? 'selected' : ''}><fmt:message
+                            key="login.language.ru"/></option>
+                </select>
+                <button type="submit" class="btn"><fmt:message
+                        key="login.language.change"/></button>
+            </form>
+        </li>
+        <c:if test="${role eq 'ADMIN'}">
+            <li class="header-position-role"><a class="header-role">${role}</a></li>
+            <li class="header-position-logout"><a href="Logout"><fmt:message key="headre.logout"/></a></li>
+        </c:if>
+
+        <c:if test="${role eq 'DOCTOR'}">
+            <li class="header-position-role"><a class="header-role">${role}</a></li>
+            <li class="header-position-logout"><a href="Logout"><fmt:message key="headre.logout"/></a></li>
+        </c:if>
+
+        <c:if test="${role eq 'NURSE'}">
+            <li class="header-position-role"><a class="header-role">${role}</a></li>
+            <li class="header-position-logout"><a href="Logout"><fmt:message key="headre.logout"/></a></li>
+        </c:if>
+
+        <c:if test="${role eq 'PATIENT'}">
+            <li class="header-position-role"><a class="header-role">${role}</a></li>
+            <li class="header-position-logout"><a href="Logout"><fmt:message key="headre.logout"/></a></li>
+        </c:if>
+    </ul>
+</div>

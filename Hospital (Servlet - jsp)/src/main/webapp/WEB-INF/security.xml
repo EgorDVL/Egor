@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<security>
+    <permissions role="ADMIN">
+        <path>/DoctorsPatientsTable</path>
+        <path>/adminPages/count-patient.jsp</path>
+
+        <path>/AddDoctorAndPatient</path>
+        <path>/CreateAttendingDoctor</path>
+        <path>/CreateDoctor</path>
+        <path>/CreateNurse</path>
+        <path>/CreatePatient</path>
+        <path>/CreateUser</path>
+        <path>/DeleteDoctor</path>
+        <path>/DeleteNurse</path>
+        <path>/DeletePatient</path>
+        <path>/DoctorsPatients</path>
+        <path>/FindPatientByParam</path>
+        <path>/GroupPatientByStatus</path>
+        <path>/MedicalHistoryPatient</path>
+        <path>/PatientHealing</path>
+        <path>/PatientReturn</path>
+        <path>/ShowAllDepartments</path>
+        <path>/ShowAllDoctors</path>
+        <path>/ShowAllNurses</path>
+        <path>/ShowAllPatient</path>
+        <path>/ShowDoctor</path>
+        <path>/ShowNurse</path>
+        <path>/ShowPatient</path>
+        <path>/SortPatient</path>
+        <path>/TransferDoctorDepartment</path>
+        <path>/TransferNurseDepartment</path>
+        <path>/UploadImage</path>
+        <path>/UpdatePatient</path>
+        <path>/UpdateDoctor</path>
+        <path>/UpdateNurse</path>
+
+        <path>/update-doctor.jsp</path>
+        <path>/update-nurse.jsp</path>
+        <path>/update-patient.jsp</path>
+        <path>/add-image.jsp</path>
+        <path>/login.jsp</path>
+        <path>/main.jsp</path>
+        <path>/adminPages/create-user.jsp</path>
+        <path>/adminPages/show-all-doctors.jsp</path>
+        <path>/adminPages/show-doctor.jsp</path>
+        <path>/adminPages/show-all-patients.jsp</path>
+        <path>/adminPages/show-patient.jsp</path>
+        <path>/adminPages/show-all-nurses.jsp</path>
+        <path>/adminPages/show-nurse.jsp</path>
+        <path>/adminPages/create-doctor.jsp</path>
+        <path>/adminPages/create-nurse.jsp</path>
+        <path>/adminPages/create-patient.jsp</path>
+        <path>/adminPages/medical-history-patient.jsp</path>
+        <path>/adminPages/healin-patient-info.jsp</path>
+        <path>/adminPages/show-all-departments.jsp</path>
+        <path>/adminPages/doctor-s-patients.jsp</path>
+        <path>/adminPages/department-s-doctors.jsp</path>
+        <path>/adminPages/search-patient-by-params.jsp</path>
+    </permissions>
+
+    <permissions role="DOCTOR">
+        <path>/MedicalHistoryPatient</path>
+        <path>/PatientHealing</path>
+        <path>/ShowPatient</path>
+
+        <path>/CreateAppointment</path>
+        <path>/CreateDiagnosis</path>
+        <path>/CreateHealing</path>
+        <path>/CreateMedicament</path>
+        <path>/CreateOperation</path>
+        <path>/CreateProcedures</path>
+        <path>/ExecuteMedicament</path>
+        <path>/ExecuteOperation</path>
+        <path>/ExecuteProcedure</path>
+        <path>/ReleasePatient</path>
+        <path>/ShowJournalPatient</path>
+        <path>/ShowMyPatients</path>
+        <path>/UpdateDiagnosis</path>
+        <path>/UpdateHealing</path>
+        <path>/UpdateMedicament</path>
+        <path>/UpdateOperation</path>
+        <path>/UpdateProcedures</path>
+        <path>/UpdateSymptoms</path>
+
+        <path>/adminPages/medical-history-patient.jsp</path>
+        <path>/adminPages/healin-patient-info.jsp</path>
+        <path>/adminPages/show-patient.jsp</path>
+
+        <path>/login.jsp</path>
+        <path>/main.jsp</path>
+        <path>/doctorPages/create-diagnosis.jsp</path>
+        <path>/doctorPages/create-appointment.jsp</path>
+        <path>/doctorPages/create-operation.jsp</path>
+        <path>/doctorPages/create-medicament.jsp</path>
+        <path>/doctorPages/create-procedures.jsp</path>
+        <path>/doctorPages/create-healing.jsp</path>
+        <path>/doctorPages/update-operation.jsp</path>
+        <path>/doctorPages/update-medicament.jsp</path>
+        <path>/doctorPages/update-procedures.jsp</path>
+        <path>/doctorPages/update-diagnosis.jsp</path>
+        <path>/doctorPages/update-healing.jsp</path>
+        <path>/doctorPages/update-symptoms.jsp</path>
+        <path>/doctorPages/journal-patient.jsp</path>
+    </permissions>
+
+    <permissions role="NURSE">
+        <path>/MedicalHistoryPatient</path>
+        <path>/PatientHealing</path>
+        <path>/ShowPatient</path>
+        <path>/ShowAllPatientFromDepartment</path>
+        <path>/ExecuteMedicament</path>
+        <path>/ExecuteProcedure</path>
+        <path>/ShowJournalPatient</path>
+
+        <path>/doctorPages/journal-patient.jsp</path>
+        <path>/adminPages/show-patient.jsp</path>
+        <path>/adminPages/medical-history-patient.jsp</path>
+        <path>/adminPages/healin-patient-info.jsp</path>
+        <path>/adminPages/show-patient.jsp</path>
+        <path>/nursePages/show-all-patients-our-department.jsp</path>
+        <path>/login.jsp</path>
+        <path>/main.jsp</path>
+    </permissions>
+
+    <permissions role="PATIENT">
+        <path>/ShowMyPage</path>
+        <path>/MedicalHistoryPatient</path>
+        <path>/PatientHealing</path>
+        <path>/ShowPatient</path>
+        <path>/adminPages/show-patient.jsp</path>
+        <path>/adminPages/medical-history-patient.jsp</path>
+        <path>/adminPages/healin-patient-info.jsp</path>
+        <path>/adminPages/show-patient.jsp</path>
+        <path>/login.jsp</path>
+        <path>/main.jsp</path>
+    </permissions>
+</security>
