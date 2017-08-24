@@ -4864,3 +4864,286 @@
 2017-08-11 16:59:35 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 2017-08-11 16:59:36 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
 2017-08-11 16:59:43 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-14 18:12:24 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-14 18:12:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-14 18:12:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-14 18:12:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-14 18:12:24 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-14 18:12:24 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-14 18:12:33 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-14 18:14:22 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-14 18:14:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-14 18:14:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-14 18:14:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-14 18:14:22 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-14 18:14:23 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 10:53:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 10:53:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 10:53:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 10:53:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 10:53:20 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 10:53:20 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 12:29:00 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 12:29:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 12:29:00 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 12:29:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 12:29:00 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 12:29:00 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 13:12:04 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 13:12:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 13:12:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 13:12:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 13:12:04 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 13:12:05 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 13:14:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 13:14:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 13:14:57 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 13:14:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 13:14:57 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 13:14:58 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 15:45:31 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 15:45:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 15:45:31 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 15:45:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 15:45:32 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 15:45:32 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 15:47:08 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 15:47:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 15:47:08 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 15:47:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 15:47:08 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 15:47:08 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 15:48:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 15:48:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 15:48:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 15:48:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 15:48:52 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 15:48:52 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 15:51:58 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 15:51:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 15:51:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 15:51:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 15:51:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 15:51:59 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 16:00:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 16:00:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 16:00:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 16:00:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 16:00:01 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 16:00:02 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 18:55:20 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 18:55:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 18:55:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 18:55:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 18:55:20 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 18:55:21 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 18:56:48 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 18:56:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 18:56:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 18:56:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 18:56:48 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 18:56:48 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 18:59:24 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 18:59:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 18:59:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 18:59:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 18:59:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 18:59:25 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:02:37 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:02:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:02:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:02:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:02:37 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:02:38 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:04:50 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:04:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:04:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:04:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:04:50 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:04:50 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:05:41 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:05:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:05:41 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:05:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:05:42 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:05:42 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:08:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:08:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:08:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:08:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:08:52 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:08:53 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:13:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:13:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:13:18 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:13:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:13:19 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:13:19 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:13:46 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:13:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:13:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:13:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:13:47 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:13:47 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 19:30:04 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 19:30:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 19:30:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 19:30:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 19:30:04 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 19:30:05 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 20:03:42 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 20:03:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 20:03:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 20:03:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 20:03:42 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 20:03:43 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 20:23:29 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 20:23:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 20:23:29 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 20:23:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 20:23:29 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 20:23:30 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 20:25:02 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 20:25:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 20:25:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 20:25:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 20:25:02 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 20:25:02 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 20:27:04 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 20:27:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 20:27:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 20:27:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 20:27:05 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 20:27:05 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-15 20:30:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-15 20:30:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-15 20:30:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-15 20:30:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-15 20:30:33 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-15 20:30:33 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 10:20:10 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 10:20:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 10:20:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 10:20:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 10:20:10 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 10:20:10 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 10:21:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 10:21:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 10:21:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 10:21:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 10:21:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 10:21:58 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 10:25:14 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 10:25:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 10:25:14 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 10:25:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 10:25:15 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 10:25:15 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 11:13:43 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 11:13:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 11:13:43 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 11:13:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 11:13:43 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 11:13:44 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 12:01:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 12:01:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 12:01:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 12:01:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 12:01:19 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 12:01:19 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 12:03:37 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 12:37:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 12:37:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 12:37:25 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 12:37:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 12:37:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 12:37:25 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 12:37:46 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 12:40:45 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 12:40:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 12:40:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 12:40:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 12:40:45 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 12:40:46 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 12:40:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 12:45:54 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 12:45:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 12:45:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 12:45:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 12:45:54 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 12:45:54 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 12:46:09 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 14:52:13 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 14:52:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 14:52:13 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 14:52:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 14:52:13 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 14:52:14 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 14:52:48 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 15:06:26 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:06:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:06:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:06:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:06:26 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:06:26 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:06:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 15:06:50 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:06:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:06:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:06:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:06:51 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:06:51 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:11:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:11:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:11:18 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:11:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:11:18 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:11:19 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:11:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 15:16:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:16:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:16:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:16:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:16:19 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:16:19 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:17:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:17:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:17:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:17:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:17:49 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:17:49 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:19:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 15:24:35 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:24:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:24:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:24:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:24:35 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:24:36 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:28:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 15:30:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 15:30:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 15:30:25 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 15:30:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 15:30:25 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 15:30:25 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 15:30:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-16 17:26:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-16 17:26:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-16 17:26:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-16 17:26:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-16 17:26:32 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-16 17:26:32 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-16 17:29:20 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 18:10:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-17 18:10:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-17 18:10:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-17 18:10:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-17 18:10:33 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-17 18:10:33 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-21 16:40:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.2.Final}
+2017-08-21 16:40:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-08-21 16:40:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-08-21 16:40:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-21 16:40:58 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-21 16:40:58 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-08-21 16:41:04 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory

@@ -1,21 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.aimprosoft.zhyzhko.InitialTask</groupId>
-    <artifactId>com.aimprosoft.zhyzhko.InitialTask</artifactId>
+    <groupId>aimprosoft</groupId>
+    <artifactId>MainPortlet</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>com.aimprosoft.zhyzhko.InitialTask Maven Webapp</name>
+    <version>1.0</version>
+
+    <name>com.aimprosoft.zhyzhko.Liferay Maven Webapp</name>
+
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.3.1.RELEASE</spring.version>
-        <jdk.version>1.8</jdk.version>
+        <liferay.maven.plugin.version>6.2.10.16</liferay.maven.plugin.version>
+        <maven-war-plugin-version>2.6</maven-war-plugin-version>
+
+        <hibernate.version>5.2.2.Final</hibernate.version>
+        <spring.version>4.3.4.RELEASE</spring.version>
+        <liferay.version>6.2.5</liferay.version>
+
+        <jdk.target>1.8</jdk.target>
+        <jdk.source>1.8</jdk.source>
+
         <spring.data.jpa.version>1.10.1.RELEASE</spring.data.jpa.version>
+
+
+        <liferay.tomcat.dir>/home/user/IdeaProjects/liferay-portal-6.2-ce-ga5/tomcat-7.0.62</liferay.tomcat.dir>
+        <liferay.deploy.dir>${liferay.tomcat.dir}/../deploy</liferay.deploy.dir>
+        <liferay.app.server.deploy.dir>${liferay.tomcat.dir}/webapps</liferay.app.server.deploy.dir>
+        <liferay.app.server.lib.global.dir>${liferay.tomcat.dir}/lib/ext</liferay.app.server.lib.global.dir>
+        <liferay.app.server.portal.dir>${liferay.app.server.deploy.dir}/ROOT</liferay.app.server.portal.dir>
+
+        <war.name>MainPortlet</war.name>
+
     </properties>
 
+
     <dependencies>
+        <!-- Liferay dependencies -->
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>portal-service</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>portal-impl</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>util-bridges</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>util-taglib</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>util-java</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.portlet</groupId>
+            <artifactId>portlet-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc-portlet</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -23,14 +91,12 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
         </dependency>
 
-        <!-- Spring dependencies !-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -75,12 +141,6 @@
 
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
         </dependency>
@@ -92,22 +152,15 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-support</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!-- Hibernate-API dependencies !-->
-        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.2.2.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>5.2.4.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
 
         <dependency>
@@ -116,27 +169,29 @@
             <version>2.1</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.liferay.portal</groupId>
+            <artifactId>util-slf4j</artifactId>
+            <version>${liferay.version}</version>
+            <scope>provided</scope>
+        </dependency>
 
-        <!-- Spring Data dependencies !-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
             <version>${spring.data.jpa.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>2.8.8</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.8.8</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
@@ -144,7 +199,6 @@
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/net.sf.oval/oval -->
         <dependency>
             <groupId>net.sf.oval</groupId>
             <artifactId>oval</artifactId>
@@ -154,7 +208,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
+            <version>5.1.6</version>
         </dependency>
 
         <dependency>
@@ -181,24 +235,77 @@
             <version>3.1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.modelmapper</groupId>
-            <artifactId>modelmapper</artifactId>
-            <version>0.7.4</version>
-        </dependency>
     </dependencies>
 
     <build>
-        <finalName>com.aimprosoft.zhyzhko.InitialTask_Task_4</finalName>
+        <finalName>${war.name}</finalName>
         <plugins>
+
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                    <source>${jdk.source}</source>
+                    <target>${jdk.target}</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+
+
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <id>copy-war</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${liferay.deploy.dir}</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${project.build.directory}</directory>
+                                    <includes>
+                                        <include>*.war</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <!--<plugin>-->
+            <!--<groupId>com.liferay.maven.plugins</groupId>-->
+            <!--<artifactId>liferay-maven-plugin</artifactId>-->
+            <!--<version>${liferay.maven.plugin.version}</version>-->
+            <!--<configuration>-->
+            <!--<autoDeployDir>${liferay.auto.deploy.dir}</autoDeployDir>-->
+            <!--<appServerDeployDir>${liferay.app.server.deploy.dir}</appServerDeployDir>-->
+            <!--<appServerLibGlobalDir>${liferay.app.server.lib.global.dir}</appServerLibGlobalDir>-->
+            <!--<appServerPortalDir>${liferay.app.server.portal.dir}</appServerPortalDir>-->
+            <!--<liferayVersion>${liferay.version}</liferayVersion>-->
+            <!--<pluginName>MainPortlet</pluginName>-->
+            <!--<pluginType>portlet</pluginType>-->
+            <!--</configuration>-->
+            <!--</plugin>-->
+            
         </plugins>
     </build>
 

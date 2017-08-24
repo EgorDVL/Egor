@@ -1,10 +1,11 @@
 package com.zhyzhko.configuration;
 
-import org.modelmapper.ModelMapper;
-import org.modelmapper.config.Configuration.AccessLevel;
 import org.springframework.context.annotation.*;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.view.InternalResourceView;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import org.springframework.web.servlet.view.JstlView;
 
 /**
  * Created by Egor on 08.04.2017.
@@ -15,14 +16,5 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Import(HibernateConfig.class)
 @EnableTransactionManagement
 public class ConfigApp {
-
-    @Bean
-    public ModelMapper modelMapper() {
-        ModelMapper modelMapper = new ModelMapper();
-        modelMapper
-                .getConfiguration()
-                .setFieldAccessLevel(AccessLevel.PRIVATE)
-                .setFieldMatchingEnabled(true);
-        return modelMapper;
-    }
+    
 }
