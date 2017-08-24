@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<liferay-portlet-app>
+    <portlet>
+        <!-- portlet name is gotten from liferay-display.xml by portlet id -->
+        <portlet-name>department-mvc-portlet</portlet-name>
+
+        <!-- include .css -->
+        <header-portlet-css>/css/default.css</header-portlet-css>
+
+        <!-- allow me to use it several times in one page in liferay -->
+        <instanceable>false</instanceable>
+    </portlet>
+</liferay-portlet-app>

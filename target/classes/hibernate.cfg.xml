@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+        <property name="hibernate.connection.driver_class">
+            com.mysql.jdbc.Driver
+        </property>
+
+        <property name="hibernate.connection.url">
+            jdbc:mysql://localhost:3306/department_project
+        </property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">toor</property>
+        <property name="hibernate.max_fetch_depth">3</property>
+        <property name="hibernate.jdbc.fetch_size">50</property>
+        <property name="hibernate.jdbc.batch_size">10</property>
+        <property name="hibernate.show_sql">false</property>
+
+        <!-- Entities Mapping -->
+        <mapping class="com.aimprosoft.b.dubrovnyi.db.beans.Department"/>
+        <mapping class="com.aimprosoft.b.dubrovnyi.db.beans.Cooperator"/>
+    </session-factory>
+</hibernate-configuration>

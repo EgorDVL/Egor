@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<display>
+    <category name="Department Task">
+        <portlet id="department-mvc-portlet"/>
+    </category>
+</display>
